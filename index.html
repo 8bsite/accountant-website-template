@@ -1,0 +1,1547 @@
+<!doctype html>
+<!--
+  Free website template by 8B · https://github.com/8bsite/accountant-website-template
+  MIT License (code) · Photos: Unsplash License, see CREDITS.md · Fonts: Google Fonts (OFL)
+  One HTML file, no build step. Notes for people and AI agents: README.md and AGENTS.md.
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tallyhouse — accountants for Bristol's small businesses</title>
+<meta name="description" content="Tallyhouse keeps the books for Bristol's sole traders and small businesses: bookkeeping, tax returns and payroll for one fixed monthly fee, with a one-page report on the 10th of every month.">
+<meta name="generator" content="8B Templates">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Tallyhouse — accountants for Bristol's small businesses">
+<meta property="og:description" content="Tallyhouse keeps the books for Bristol's sole traders and small businesses: bookkeeping, tax returns and payroll for one fixed monthly fee, with a one-page report on the 10th of every month.">
+<meta property="og:image" content="https://your-domain.example/preview.png" data-8b-placeholder="og-image">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2064%2064'%3E%3Crect%20width%3D'64'%20height%3D'64'%20rx%3D'14'%20fill%3D'%230b0b0b'%2F%3E%3Ctext%20x%3D'32'%20y%3D'45'%20font-family%3D'Arial%2CHelvetica%2Csans-serif'%20font-size%3D'38'%20font-weight%3D'700'%20text-anchor%3D'middle'%20fill%3D'%23fe7141'%3ET%3C%2Ftext%3E%3C%2Fsvg%3E" data-8b-placeholder="favicon">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" href="https://fonts.gstatic.com/s/googlesans/v71/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPjIUvQ.woff2" as="font" type="font/woff2" crossorigin>
+<style>
+/* armenian */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/googlesans/v71/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPiIUvaYr.woff2) format('woff2');
+  unicode-range: U+0308, U+0530-058F, U+2010, U+2024, U+25CC, U+FB13-FB17;
+}
+/* bengali */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/googlesans/v71/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPiAUvaYr.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0980-09FE, U+1CD0, U+1CD2, U+1CD5-1CD6, U+1CD8, U+1CE1, U+1CEA, U+1CED, U+1CF2, U+1CF5-1CF7, U+200C-200D, U+20B9, U+25CC, U+A8F1, U+11DF0-11DF1;
+}
+/* canadian-aboriginal */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/googlesans/v71/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPh0UvaYr.woff2) format('woff2');
+  unicode-range: U+02C7, U+02D8-02D9, U+02DB, U+0307, U+1400-167F, U+18B0-18F5, U+25CC, U+11AB0-11ABF;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/googlesans/v71/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPj8UvaYr.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/googlesans/v71/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPjYUvaYr.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* devanagari */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/googlesans/v71/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPjMUvaYr.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF4, U+1CF7-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF, U+11B00-11B0A;
+}
+/* ethiopic */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/googlesans/v71/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPiMUvaYr.woff2) format('woff2');
+  unicode-range: U+030E, U+1200-1399, U+2D80-2DDE, U+AB01-AB2E, U+1E7E0-1E7E6, U+1E7E8-1E7EB, U+1E7ED-1E7EE, U+1E7F0-1E7FE;
+}
+/* georgian */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/googlesans/v71/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPi0UvaYr.woff2) format('woff2');
+  unicode-range: U+0589, U+10A0-10FF, U+1C90-1CBA, U+1CBD-1CBF, U+205A, U+2D00-2D2F, U+2E31;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/googlesans/v71/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPj4UvaYr.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/googlesans/v71/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPjEUvaYr.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* gujarati */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/googlesans/v71/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPikUvaYr.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0A80-0AFF, U+200C-200D, U+20B9, U+25CC, U+A830-A839;
+}
+/* gurmukhi */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/googlesans/v71/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPhEUvaYr.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0A01-0A76, U+200C-200D, U+20B9, U+25CC, U+262C, U+A830-A839;
+}
+/* hebrew */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/googlesans/v71/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPjAUvaYr.woff2) format('woff2');
+  unicode-range: U+0307-0308, U+0590-05FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+/* khmer */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/googlesans/v71/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPjkUvaYr.woff2) format('woff2');
+  unicode-range: U+1780-17FF, U+19E0-19FF, U+200C-200D, U+25CC;
+}
+/* lao */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/googlesans/v71/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPjsUvaYr.woff2) format('woff2');
+  unicode-range: U+0E81-0EDF, U+200C-200D, U+25CC;
+}
+/* malayalam */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/googlesans/v71/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPioUvaYr.woff2) format('woff2');
+  unicode-range: U+0307, U+0323, U+0951-0952, U+0964-0965, U+0B83, U+0D00-0D7F, U+1CDA, U+1CF2, U+200C-200D, U+20B9, U+25CC, U+A830-A832;
+}
+/* oriya */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/googlesans/v71/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPisUvaYr.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0B01-0B77, U+1CDA, U+1CF2, U+200C-200D, U+20B9, U+25CC;
+}
+/* sinhala */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/googlesans/v71/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPi8UvaYr.woff2) format('woff2');
+  unicode-range: U+0964-0965, U+0D81-0DF4, U+1CF2, U+200C-200D, U+25CC, U+111E1-111F4;
+}
+/* symbols */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/googlesans/v71/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPlwUvaYr.woff2) format('woff2');
+  unicode-range: U+0001-000C, U+000E-001F, U+007F-009F, U+20DD-20E0, U+20E2-20E4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3, U+2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, U+25A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF, U+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-101FD, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1F0FF, U+1F100-1F1AE, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31E, U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F426, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1F700-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1F890-1F8AD, U+1F8B0-1F8BB, U+1F8C0-1F8C1, U+1F8D0-1F8D8, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F996, U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FAC6, U+1FAC8, U+1FACC-1FADD, U+1FADF-1FAEB, U+1FAEF-1FAFA, U+1FB00-1FBFF;
+}
+/* tamil */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/googlesans/v71/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPiQUvaYr.woff2) format('woff2');
+  unicode-range: U+0964-0965, U+0B82-0BFA, U+200C-200D, U+20B9, U+25CC;
+}
+/* telugu */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/googlesans/v71/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPi4UvaYr.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0B83, U+0C00-0C7F, U+1CD5-1CD6, U+1CD8, U+1CDA, U+1CF2, U+200C-200D, U+25CC;
+}
+/* thai */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/googlesans/v71/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPiYUvaYr.woff2) format('woff2');
+  unicode-range: U+02D7, U+0303, U+0331, U+0E01-0E5B, U+200C-200D, U+25CC;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/googlesans/v71/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPj0UvaYr.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/googlesans/v71/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPjwUvaYr.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/googlesans/v71/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPjIUvQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+</style>
+<style data-8b-part="layers">
+@layer tokens, base, atoms, layout, sections, scenes;
+</style>
+<style data-8b-part="tokens">
+@layer tokens {
+:root {
+  --color-1: #ffffff;
+  --color-2: #0b0b0b;
+  --color-3: #fe7141;
+  --color-4: #cdabfe;
+  --color-5: #d1ddd3;
+  --color-6: #595959;
+  --color-7: #a8a8a8;
+  --font-1: "Google Sans", "Google Sans Fallback", Arial, sans-serif;
+  --space-1: clamp(16px, 1.25vw, 20px);
+}
+}
+</style>
+<style data-8b-part="base">
+@layer base {
+@font-face { font-family: "Google Sans Fallback"; src: local("Arial Bold"), local("Arial-BoldMT"), local("Helvetica Bold"); font-weight: 550 799; size-adjust: 97.2%; ascent-override: 99.7%; descent-override: 29.8%; line-gap-override: 0%; }
+@font-face { font-family: "Google Sans Fallback"; src: local("Arial"), local("ArialMT"), local("Helvetica"); font-weight: 100 549; size-adjust: 102.5%; ascent-override: 94.7%; descent-override: 28.3%; line-gap-override: 0%; }
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth [data-lenis-prevent] { overscroll-behavior: contain; }
+.lenis.lenis-stopped { overflow: clip; }
+.lenis.lenis-smooth iframe { pointer-events: none; }
+body { margin: 0; background: var(--color-1); color: var(--color-2); font-family: var(--font-1); font-size: 17px; line-height: 1.45; letter-spacing: -0.01em; overflow-x: clip; }
+img { display: block; max-width: 100%; }
+h1, h2, h3, h4, p, ul, ol, figure, blockquote, dl, dd { margin: 0; }
+ul, ol { padding: 0; list-style: none; }
+a { color: inherit; }
+button, input, select, textarea { font: inherit; color: inherit; letter-spacing: inherit; }
+:focus-visible { outline: 2px solid var(--color-2); outline-offset: 3px; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+}
+</style>
+<style data-8b-part="system">
+@layer atoms {
+.m-text { font-family: var(--font-1); font-size: 17px; font-weight: 400; line-height: 1.45; letter-spacing: -0.01em; text-transform: none; font-style: normal; }
+.m-text-2 { font-family: var(--font-1); font-size: clamp(48px, 6.6vw, 96px); font-weight: 500; line-height: 0.94; letter-spacing: -0.055em; text-transform: none; font-style: normal; }
+.m-text-3 { font-family: var(--font-1); font-size: clamp(34px, 4.2vw, 56px); font-weight: 500; line-height: 1; letter-spacing: -0.045em; text-transform: none; font-style: normal; }
+.m-text-4 { font-family: var(--font-1); font-size: clamp(20px, 2vw, 27px); font-weight: 500; line-height: 1.14; letter-spacing: -0.03em; text-transform: none; font-style: normal; }
+.m-text-5 { font-family: var(--font-1); font-size: 12px; font-weight: 600; line-height: 1.2; letter-spacing: 0.07em; text-transform: uppercase; font-style: normal; }
+.m-text-6 { font-family: var(--font-1); font-size: 14px; font-weight: 400; line-height: 1.4; letter-spacing: -0.005em; text-transform: none; font-style: normal; }
+
+.m-btn { position: relative; isolation: isolate; display: flex; align-items: center; justify-content: space-between; gap: 16px; min-height: 60px; padding: 0 20px; background: var(--color-2); color: var(--color-1); font-family: var(--font-1); font-size: 16px; font-weight: 500; line-height: 1.1; letter-spacing: -0.02em; text-decoration: none; border: 0; cursor: pointer; overflow: hidden; }
+.m-btn::before { content: ""; position: absolute; inset: 0; z-index: -1; background: var(--color-1); clip-path: inset(50% 50% 50% 50%); transition: clip-path .5s cubic-bezier(.7, 0, .2, 1); }
+.m-btn__arrow { font-size: 22px; line-height: 1; }
+@media (hover: hover) {
+  .m-btn:hover { color: var(--color-2); }
+  .m-btn:hover::before { clip-path: inset(0 0 0 0); }
+}
+.m-btn-2 { position: relative; isolation: isolate; display: inline-flex; align-items: center; justify-content: space-between; gap: 28px; min-height: 48px; padding: 0 18px; background: var(--color-3); color: var(--color-2); font-family: var(--font-1); font-size: 16px; font-weight: 500; line-height: 1.1; letter-spacing: -0.02em; text-decoration: none; border: 0; cursor: pointer; overflow: hidden; }
+.m-btn-2::before { content: ""; position: absolute; inset: 0; z-index: -1; background: var(--color-2); clip-path: inset(50% 50% 50% 50%); transition: clip-path .5s cubic-bezier(.7, 0, .2, 1); }
+.m-btn-2__icon { font-size: 22px; font-weight: 400; line-height: 1; }
+@media (hover: hover) {
+  .m-btn-2:hover { color: var(--color-1); }
+  .m-btn-2:hover::before { clip-path: inset(0 0 0 0); }
+}
+.m-link { color: var(--color-2); font-weight: 500; text-decoration: none; background: linear-gradient(var(--color-4), var(--color-4)) no-repeat 0 100% / 0% 100%, linear-gradient(currentColor, currentColor) no-repeat 0 100% / 100% 1px; transition: background-size .45s cubic-bezier(.7, 0, .2, 1); padding: 0 2px 1px; }
+@media (hover: hover) { .m-link:hover { background-size: 100% 100%, 100% 1px; } }
+.m-link-2 { color: var(--color-1); font-weight: 500; text-decoration: none; background: linear-gradient(var(--color-4), var(--color-4)) no-repeat 0 100% / 0% 100%, linear-gradient(currentColor, currentColor) no-repeat 0 100% / 100% 1px; transition: background-size .45s cubic-bezier(.7, 0, .2, 1), color .2s .1s; padding: 0 2px 1px; }
+@media (hover: hover) { .m-link-2:hover { background-size: 100% 100%, 100% 1px; color: var(--color-2); } }
+.m-icon { position: relative; isolation: isolate; display: inline-grid; place-items: center; min-width: 48px; min-height: 48px; padding: 0 14px; background: transparent; color: inherit; border: 1px solid currentColor; font-family: var(--font-1); font-size: 16px; font-weight: 500; line-height: 1; letter-spacing: -0.02em; cursor: pointer; overflow: hidden; }
+.m-icon::before { content: ""; position: absolute; inset: 0; z-index: -1; background: var(--color-4); clip-path: inset(100% 0 0 0); transition: clip-path .4s cubic-bezier(.7, 0, .2, 1); }
+@media (hover: hover) { .m-icon:hover { color: var(--color-2); } .m-icon:hover::before { clip-path: inset(0 0 0 0); } }
+
+.m-photo { position: relative; overflow: hidden; isolation: isolate; background: var(--photo-tint, var(--color-4)); }
+.m-photo__img { width: 100%; height: 100%; object-fit: cover; filter: grayscale(1) contrast(1.12) brightness(1.06); mix-blend-mode: multiply; }
+.m-badge { display: inline-block; padding: 5px 7px 4px; background: var(--color-1); color: var(--color-2); font-family: var(--font-1); font-size: 11px; font-weight: 600; line-height: 1.1; letter-spacing: 0.07em; text-transform: uppercase; font-style: normal; }
+.m-mark { --mark-color: var(--color-4); color: var(--color-2); background: linear-gradient(var(--mark-color), var(--mark-color)) no-repeat 0 0 / 100% 100%; -webkit-box-decoration-break: clone; box-decoration-break: clone; padding: 0 0.08em; }
+.m-rule { display: block; height: 1px; background: currentColor; opacity: .55; transform-origin: 0 50%; }
+.m-field { display: grid; gap: 8px; }
+.m-field__label { font-size: 12px; font-weight: 600; line-height: 1.2; letter-spacing: 0.07em; text-transform: uppercase; }
+.m-field__input { width: 100%; min-height: 52px; padding: 14px 16px; background: var(--color-1); color: var(--color-2); border: 1px solid var(--color-1); border-radius: 0; font-size: 17px; line-height: 1.3; }
+.m-field__input:focus-visible { outline: 2px solid var(--color-3); outline-offset: 2px; }
+}
+</style>
+<style data-8b-part="layout">
+@layer layout {
+.wrap { padding-inline: var(--space-1); }
+.grid { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: 16px; }
+@media (max-width: 767px) { .grid { grid-template-columns: repeat(4, minmax(0, 1fr)); column-gap: 12px; } }
+}
+</style>
+<style data-8b-part="section:nav">
+@layer sections {
+#nav { position: fixed; inset: 0 0 auto 0; z-index: 50; display: flex; align-items: stretch; height: 48px; background: var(--color-1); border-bottom: 1px solid var(--color-2); transition: transform .45s cubic-bezier(.7, 0, .2, 1); }
+#nav.is-hidden { transform: translateY(-100%); }
+#nav .nav__logo { display: flex; align-items: center; gap: 8px; padding: 0 16px; background: var(--color-2); color: var(--color-1); text-decoration: none; font-size: 22px; font-weight: 700; letter-spacing: -0.05em; line-height: 1; }
+#nav .nav__logo small { font-size: 12px; font-weight: 600; letter-spacing: 0; padding-top: 2px; }
+#nav .nav__cta { min-width: 260px; min-height: 0; }
+#nav .nav__links { display: flex; margin-left: auto; }
+#nav .nav__link { display: flex; align-items: center; padding: 0 22px; border-left: 1px solid var(--color-2); font-size: 15px; font-weight: 500; letter-spacing: -0.02em; text-decoration: none; background: linear-gradient(var(--color-4), var(--color-4)) no-repeat 0 100% / 100% 0%; transition: background-size .4s cubic-bezier(.7, 0, .2, 1); }
+@media (hover: hover) { #nav .nav__link:hover { background-size: 100% 100%; } }
+#nav .nav__menu { display: none; margin-left: auto; border-width: 0 0 0 1px; min-height: 0; }
+#nav .menu { position: fixed; inset: 0; z-index: 60; display: grid; grid-template-rows: auto 1fr auto; background: var(--color-2); color: var(--color-1); padding: 0 0 24px; overflow-y: auto; }
+#nav .menu[hidden] { display: none; }
+#nav .menu :focus-visible { outline-color: var(--color-3); }
+#nav .menu__top { display: flex; justify-content: space-between; height: 48px; border-bottom: 1px solid var(--color-7); }
+#nav .menu__close { border-width: 0 0 0 1px; min-height: 0; color: var(--color-1); }
+#nav .menu__links { display: grid; align-content: start; padding: 24px var(--space-1); }
+#nav .menu__links a { display: block; padding: 10px 0; border-bottom: 1px solid var(--color-7); color: var(--color-1); text-decoration: none; font-size: 40px; font-weight: 500; letter-spacing: -0.045em; line-height: 1.05; }
+#nav .menu__cta { margin: 0 var(--space-1); }
+@media (max-width: 899px) {
+  #nav .nav__links, #nav .nav__cta { display: none; }
+  #nav .nav__menu { display: inline-grid; }
+}
+}
+</style>
+<style data-8b-part="section:opening">
+@layer sections {
+#opening { position: relative; background: var(--color-1); }
+#opening .op-cover :focus-visible, #opening .op-second :focus-visible { outline-color: var(--color-3); }
+#opening .op-stage { --cw: min(52vw, 680px); --ch: min(calc(100svh - 150px), 640px); --cy: calc(48px + (100svh - 48px - var(--ch)) / 2); position: sticky; top: 0; height: 100svh; overflow: hidden; }
+#opening .op-tiles { position: absolute; inset: 0; z-index: 0; }
+#opening .op-tile { position: absolute; left: var(--tx); top: var(--ty); width: var(--tw); height: var(--th); }
+#opening .op-tile__frame { position: absolute; inset: 0; }
+#opening .op-tile__frame .m-photo__img { position: absolute; inset: -14% 0 auto; height: 128%; }
+#opening .op-tile .m-badge { position: absolute; z-index: 1; }
+#opening .op-tile:nth-child(1) { --tx: -2%; --ty: 9%; --tw: 25%; --th: 36%; --photo-tint: var(--color-4); }
+#opening .op-tile:nth-child(1) .m-badge { right: 0; bottom: 0; }
+#opening .op-tile:nth-child(2) { --tx: 4%; --ty: 58%; --tw: 17%; --th: 27%; --photo-tint: var(--color-5); }
+#opening .op-tile:nth-child(2) .m-badge { left: 0; bottom: 0; }
+#opening .op-tile:nth-child(3) { --tx: 15%; --ty: 76%; --tw: 15%; --th: 30%; --photo-tint: var(--color-3); }
+#opening .op-tile:nth-child(3) .m-badge { left: 0; top: 0; }
+#opening .op-tile:nth-child(4) { --tx: 59%; --ty: 7%; --tw: 21%; --th: 26%; --photo-tint: var(--color-3); }
+#opening .op-tile:nth-child(4) .m-badge { right: 0; top: 0; }
+#opening .op-tile:nth-child(5) { --tx: 80%; --ty: 14%; --tw: 14%; --th: 21%; --photo-tint: var(--color-4); }
+#opening .op-tile:nth-child(5) .m-badge { right: 0; bottom: 0; }
+#opening .op-tile:nth-child(6) { --tx: 86%; --ty: 40%; --tw: 18%; --th: 30%; --photo-tint: var(--color-5); }
+#opening .op-tile:nth-child(6) .m-badge { left: 0; bottom: 0; }
+#opening .op-tile:nth-child(7) { --tx: 70%; --ty: 62%; --tw: 17%; --th: 32%; --photo-tint: var(--color-4); }
+#opening .op-tile:nth-child(7) .m-badge { right: 0; top: 0; }
+#opening .op-tile:nth-child(8) { --tx: 45%; --ty: 94%; --tw: 15%; --th: 22%; --photo-tint: var(--color-3); }
+#opening .op-tile:nth-child(8) .m-badge { right: 0; bottom: auto; top: 0; }
+#opening .op-ground { --spread: 0; position: absolute; inset: 0; background: var(--color-2); clip-path: inset(calc(var(--cy) * (1 - var(--spread))) calc((100% - var(--cw)) / 2 * (1 - var(--spread))) calc((100% - var(--cy) - var(--ch)) * (1 - var(--spread))) calc((100% - var(--cw)) / 2 * (1 - var(--spread)))); }
+#opening .op-cover { position: absolute; top: var(--cy); left: calc((100% - var(--cw)) / 2); width: var(--cw); height: var(--ch); display: grid; grid-template-columns: 1fr auto; grid-template-rows: auto 1fr auto; padding: 22px 22px 18px; background: var(--color-2); color: var(--color-1); }
+#opening .op-head { grid-column: 1 / -1; }
+#opening .op-title { font-size: clamp(46px, 8.4vw, 118px); max-width: 9ch; }
+#opening .op-lead { max-width: 25em; margin-top: 22px; font-size: clamp(17px, 1.55vw, 21px); line-height: 1.22; font-weight: 400; letter-spacing: -0.02em; }
+#opening .op-actions { grid-row: 3; align-self: end; display: flex; flex-wrap: wrap; align-items: center; gap: 12px 22px; }
+#opening .op-year { grid-row: 3; grid-column: 2; align-self: end; font-size: clamp(44px, 6vw, 88px); font-weight: 700; line-height: .8; letter-spacing: -0.06em; }
+#opening .op-second { position: relative; z-index: 2; min-height: 100svh; background: var(--color-2); color: var(--color-1); padding: 120px var(--space-1) 64px; display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: 16px; align-content: space-between; row-gap: 64px; }
+#opening .op-statement { grid-column: 1 / span 10; font-size: clamp(36px, 4.9vw, 70px); line-height: 1.02; letter-spacing: -0.05em; }
+#opening .op-statement .m-mark { padding: 0 .06em; }
+#opening .op-ledger { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); column-gap: 16px; }
+#opening .op-ledger li { display: grid; gap: 14px; align-content: start; }
+#opening .op-ledger .m-rule { color: var(--color-7); opacity: 1; }
+#opening .op-ledger p { max-width: 24em; color: var(--color-7); }
+#opening .op-ledger .m-text-5 { color: var(--color-1); }
+#opening .op-more { grid-column: 1 / -1; justify-self: start; }
+@media (prefers-reduced-motion: no-preference) {
+  #opening .op-tile__frame { animation: op-open .7s cubic-bezier(.2, .7, .1, 1) backwards; animation-delay: calc(var(--i, 0) * 60ms); }
+  #opening .op-tile:nth-child(2) .op-tile__frame { --i: 2; } #opening .op-tile:nth-child(3) .op-tile__frame { --i: 4; }
+  #opening .op-tile:nth-child(4) .op-tile__frame { --i: 1; } #opening .op-tile:nth-child(5) .op-tile__frame { --i: 3; }
+  #opening .op-tile:nth-child(6) .op-tile__frame { --i: 5; } #opening .op-tile:nth-child(7) .op-tile__frame { --i: 6; }
+  #opening .op-tile:nth-child(8) .op-tile__frame { --i: 7; }
+  #opening .op-tile__frame .m-photo__img { animation: op-pan 5.2s ease-in-out infinite alternate; }
+  #opening .op-tile:nth-child(even) .op-tile__frame .m-photo__img { animation-duration: 4.4s; animation-direction: alternate-reverse; }
+  #opening .op-stage.is-idle .m-photo__img { animation-play-state: paused; }
+  #opening .op-head, #opening .op-actions { animation: op-rise .8s cubic-bezier(.2, .7, .1, 1) backwards; }
+  #opening .op-actions { animation-delay: .12s; }
+}
+@keyframes op-open { from { clip-path: inset(100% 0 0 0); } to { clip-path: inset(0 0 0 0); } }
+@keyframes op-pan { from { transform: translate3d(0, -9%, 0); } to { transform: translate3d(0, 9%, 0); } }
+@keyframes op-rise { from { transform: translate3d(0, 28px, 0); } to { transform: none; } }
+@media (max-width: 767px) {
+  #opening .op-stage { --cw: calc(100% - 2 * var(--space-1)); --ch: 64svh; --cy: 30svh; }
+  #opening .op-cover { padding: 16px 16px 14px; }
+  #opening .op-title { font-size: clamp(44px, 13.4vw, 60px); }
+  #opening .op-lead { margin-top: 14px; font-size: 16px; }
+  #opening .op-actions { grid-column: 1 / -1; }
+  #opening .op-year { grid-row: 2; align-self: end; justify-self: end; font-size: 44px; margin-bottom: 14px; }
+  #opening .op-tile:nth-child(1) { --tx: -6%; --ty: 7.5%; --tw: 42%; --th: 19%; }
+  #opening .op-tile:nth-child(2) { --tx: 38%; --ty: 6.5%; --tw: 26%; --th: 13%; }
+  #opening .op-tile:nth-child(2) .m-badge { left: 0; bottom: 0; top: auto; }
+  #opening .op-tile:nth-child(3) { --tx: 66%; --ty: 9%; --tw: 40%; --th: 18%; }
+  #opening .op-tile:nth-child(4) { --tx: 34%; --ty: 19.5%; --tw: 30%; --th: 12%; }
+  #opening .op-tile:nth-child(5) { --tx: 6%; --ty: 95.5%; --tw: 34%; --th: 12%; }
+  #opening .op-tile:nth-child(5) .m-badge { left: 0; top: 0; right: auto; bottom: auto; }
+  #opening .op-tile:nth-child(6) { --tx: 56%; --ty: 94.5%; --tw: 38%; --th: 12%; }
+  #opening .op-tile:nth-child(6) .m-badge { right: 0; top: 0; left: auto; bottom: auto; }
+  #opening .op-tile:nth-child(7), #opening .op-tile:nth-child(8) { display: none; }
+  #opening .op-second { padding-top: 96px; grid-template-columns: 1fr; row-gap: 40px; }
+  #opening .op-statement { grid-column: 1; font-size: clamp(32px, 9vw, 40px); }
+  #opening .op-ledger { grid-template-columns: 1fr; row-gap: 24px; }
+  #opening .op-more { grid-column: 1; }
+}
+}
+</style>
+<style data-8b-part="section:month">
+@layer sections {
+#month { background: var(--color-4); padding: 104px 0 120px; }
+#month .mo-grid { row-gap: 48px; align-items: start; }
+#month .mo-intro { grid-column: 1 / span 5; display: grid; gap: 24px; }
+#month .mo-lead { max-width: 30em; }
+#month .mo-notes { grid-column: 1 / span 5; grid-row: 2; display: grid; }
+#month .mo-note { display: grid; grid-template-columns: 44px 1fr; column-gap: 18px; row-gap: 10px; align-content: start; min-height: 40svh; padding-top: 22px; border-top: 1px solid var(--color-2); }
+#month .mo-note:last-child { min-height: 0; padding-bottom: 8px; }
+#month .mo-note > :not(.mo-key) { grid-column: 2; }
+#month .mo-note p { max-width: 26em; }
+#month .mo-key { grid-row: 1 / span 2; display: grid; place-items: center; width: 44px; height: 44px; border: 1px solid var(--color-2); font-size: 18px; font-weight: 600; transition: background-color .4s, color .4s; }
+#month .mo-key.is-on { background: var(--color-2); color: var(--color-1); }
+#month .mo-sheet { position: sticky; top: 64px; grid-column: 7 / span 6; grid-row: 1 / span 2; display: grid; gap: 12px; padding: 24px 26px 20px; background: var(--color-1); font-size: 15px; line-height: 1.3; }
+#month .mo-sheet__head { display: grid; gap: 6px; padding-bottom: 6px; }
+#month .mo-client { font-size: clamp(22px, 2vw, 28px); font-weight: 500; letter-spacing: -0.035em; line-height: 1.05; }
+#month .mo-sheet .m-text-6 { color: var(--color-6); }
+#month .mo-part { position: relative; z-index: 1; display: grid; gap: 8px; padding-top: 10px; border-top: 1px solid var(--color-2); }
+#month .mo-rows { display: grid; }
+#month .mo-rows div { display: flex; justify-content: space-between; gap: 16px; padding: 3px 0; border-bottom: 1px dotted var(--color-6); }
+#month .mo-rows .is-total { font-weight: 600; border-bottom: 0; }
+#month .mo-rows dd { font-variant-numeric: tabular-nums; }
+#month .mo-cash { display: grid; grid-template-columns: auto 1fr; align-items: end; gap: 22px; }
+#month .mo-big { font-size: clamp(30px, 2.8vw, 40px); font-weight: 500; letter-spacing: -0.05em; line-height: .9; }
+#month .mo-bars { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 4px; height: 76px; }
+#month .mo-bar { position: relative; display: grid; grid-template-rows: 1fr auto; gap: 3px; height: 100%; }
+#month .mo-bar__fill { align-self: end; height: calc(var(--v, .5) * 100%); background: var(--color-2); transform-origin: 50% 100%; }
+#month .mo-bar:last-child .mo-bar__fill { background: var(--color-3); }
+#month .mo-bar__label { font-size: 10px; font-weight: 600; text-align: center; line-height: 1; }
+#month .mo-pot { font-weight: 600; }
+#month .mo-band { position: absolute; z-index: 0; top: 0; left: 12px; right: 12px; height: 100px; background: var(--color-5); transform-origin: 50% 0; pointer-events: none; }
+@media (max-width: 899px) {
+  #month { padding: 88px 0 96px; }
+  #month .mo-intro, #month .mo-notes, #month .mo-sheet { grid-column: 1 / -1; grid-row: auto; }
+  #month .mo-sheet { position: relative; top: 0; padding: 18px 16px; }
+  #month .mo-note { min-height: 0; padding-bottom: 28px; }
+}
+}
+</style>
+<style data-8b-part="section:services">
+@layer sections {
+#services { background: var(--color-1); padding-top: 112px; }
+#services .sv-head { row-gap: 22px; padding-bottom: 56px; }
+#services .sv-head .m-rule { grid-column: 1 / -1; }
+#services .sv-head h2 { grid-column: 1 / span 7; }
+#services .sv-head p { grid-column: 9 / span 4; align-self: end; }
+#services .sv-slab { background: var(--slab-color, var(--color-3)); color: var(--color-2); }
+#services .sv-slab__in { min-height: 100svh; padding-top: 16px; padding-bottom: 28px; row-gap: 28px; align-content: start; }
+#services .sv-slab .m-rule { grid-column: 1 / -1; }
+#services .sv-name { grid-column: 1 / span 6; font-size: clamp(54px, 8.4vw, 124px); }
+#services .sv-copy { grid-column: 7 / span 5; display: grid; gap: 16px; align-content: start; padding-top: 6px; }
+#services .sv-copy .m-text { max-width: 30em; }
+#services .sv-photo { grid-column: 1 / span 5; align-self: end; aspect-ratio: 4 / 3; }
+#services .sv-dots { --dot-cell: 6px; --dot-r: 1.2px; position: absolute; inset: 0; z-index: 1; background-image: radial-gradient(circle at 50% 50%, var(--slab-color, var(--color-3)) var(--dot-r), transparent calc(var(--dot-r) + .7px)); background-size: var(--dot-cell) var(--dot-cell); background-position: 50% 50%; pointer-events: none; }
+#services .sv-list { grid-column: 7 / span 6; align-self: end; display: grid; gap: 12px; }
+#services .sv-list ul { border-top: 1px solid var(--color-2); }
+#services .sv-list li { padding: 10px 0; border-bottom: 1px solid var(--color-2); }
+#services .sv-list .m-btn { margin-top: 8px; }
+@media (min-width: 900px) and (min-height: 680px) { #services .sv-slab { position: sticky; top: 0; } }
+@media (max-width: 899px) {
+  #services { padding-top: 88px; }
+  #services .sv-head h2, #services .sv-head p { grid-column: 1 / -1; }
+  #services .sv-slab__in { min-height: 0; padding-bottom: 40px; row-gap: 22px; }
+  #services .sv-name, #services .sv-copy, #services .sv-photo, #services .sv-list { grid-column: 1 / -1; }
+  #services .sv-name { font-size: clamp(46px, 14vw, 72px); }
+}
+}
+</style>
+<style data-8b-part="section:switch">
+@layer sections {
+#switch { padding: 128px 0; }
+#switch .sw { row-gap: 40px; align-items: center; }
+#switch .sw-photo { --photo-tint: var(--color-3); grid-column: 1 / span 6; margin-left: calc(-1 * var(--space-1)); aspect-ratio: 1 / 1; }
+#switch .sw-copy { grid-column: 8 / span 5; display: grid; gap: 24px; }
+#switch .sw-steps { display: grid; }
+#switch .sw-steps li { display: grid; grid-template-columns: 52px 1fr; column-gap: 16px; row-gap: 8px; padding-bottom: 20px; }
+#switch .sw-steps .m-rule { grid-column: 1 / -1; margin-bottom: 14px; }
+#switch .sw-num { font-size: 34px; font-weight: 500; letter-spacing: -0.05em; line-height: .9; }
+#switch .sw-steps h3 { margin-bottom: 6px; }
+#switch .sw-copy > .m-link { justify-self: start; }
+@media (max-width: 899px) {
+  #switch { padding: 96px 0; }
+  #switch .sw-photo { grid-column: 1 / -1; margin-right: calc(-1 * var(--space-1)); aspect-ratio: 4 / 3; }
+  #switch .sw-copy { grid-column: 1 / -1; }
+}
+}
+</style>
+<style data-8b-part="section:year">
+@layer sections {
+#year { background: var(--color-2); color: var(--color-1); }
+#year :focus-visible { outline-color: var(--color-3); }
+#year .yr-pin { display: grid; align-content: center; row-gap: 40px; min-height: 100svh; padding: 88px 0 56px; }
+#year .yr-head { row-gap: 18px; }
+#year .yr-head .m-rule { grid-column: 1 / -1; }
+#year .yr-head h2 { grid-column: 1 / span 6; }
+#year .yr-intro { grid-column: 8 / span 5; color: var(--color-7); max-width: 30em; }
+#year .yr-key { grid-column: 8 / span 5; display: flex; flex-wrap: wrap; gap: 8px 22px; font-size: 14px; }
+#year .yr-key li { display: flex; align-items: center; gap: 8px; }
+#year .yr-swatch { width: 14px; height: 14px; background: var(--chip); }
+#year .yr-view { position: relative; overflow-x: auto; overflow-y: hidden; }
+#year .yr-track { display: flex; width: max-content; padding: 0 52vw 6px var(--space-1); }
+#year .yr-month { display: grid; align-content: start; gap: 12px; width: 268px; margin-right: 16px; padding-top: 14px; border-top: 1px solid var(--color-7); }
+#year .yr-name { font-size: 44px; font-weight: 500; letter-spacing: -0.05em; line-height: 1; }
+#year .yr-name span { margin-left: 8px; font-size: 14px; letter-spacing: 0; color: var(--color-7); font-weight: 500; }
+#year .yr-chips { display: grid; gap: 8px; }
+#year .yr-chip { position: relative; display: grid; gap: 3px; padding: 10px 12px 11px; background: var(--color-1); color: var(--color-2); }
+#year .yr-chip__fill { position: absolute; inset: 0; background: var(--chip); transform-origin: 0 50%; }
+#year .yr-date, #year .yr-what { position: relative; }
+#year .yr-date { font-size: 13px; font-weight: 700; letter-spacing: 0.02em; }
+#year .yr-what { font-size: 15px; line-height: 1.25; }
+#year .yr-line { position: absolute; z-index: 2; top: 0; bottom: 0; left: 50%; width: 2px; margin-left: -1px; background: var(--color-3); pointer-events: none; }
+@media (max-width: 899px) {
+  #year .yr-pin { row-gap: 28px; padding: 72px 0 40px; }
+  #year .yr-head h2, #year .yr-intro, #year .yr-key { grid-column: 1 / -1; }
+  #year .yr-head h2 { font-size: clamp(30px, 8.6vw, 40px); }
+  #year .yr-intro { font-size: 15px; }
+  #year .yr-month { width: 76vw; }
+  #year .yr-name { font-size: 36px; }
+}
+}
+</style>
+<style data-8b-part="scene-style:year-filed">
+@layer scenes {
+@media (prefers-reduced-motion: no-preference) {
+  #year.is-tracked .yr-view { overflow: hidden; }
+}
+}
+</style>
+<style data-8b-part="section:cases">
+@layer sections {
+#cases { padding: 128px 0 0; }
+#cases .cs-head { display: grid; gap: 22px; padding-bottom: 56px; }
+#cases .cs-case { display: grid; grid-template-columns: 5fr 7fr; min-height: min(78svh, 620px); }
+#cases .cs-case:nth-child(even) { grid-template-columns: 7fr 5fr; }
+#cases .cs-case:nth-child(even) .cs-portrait { order: 2; }
+#cases .cs-portrait { display: grid; grid-template-columns: 1fr auto; grid-template-rows: auto 1fr auto; gap: 20px; padding: 20px; background: var(--color-2); color: var(--color-1); }
+#cases .cs-glyph { font-size: 96px; font-weight: 700; line-height: .7; letter-spacing: -0.08em; }
+#cases .cs-photo { grid-column: 2; grid-row: 1 / span 2; width: clamp(150px, 17vw, 240px); aspect-ratio: 4 / 5; }
+#cases .cs-who { grid-column: 1 / -1; grid-row: 3; display: grid; gap: 4px; }
+#cases .cs-who strong { font-size: 22px; font-weight: 500; letter-spacing: -0.03em; }
+#cases .cs-who span { color: var(--color-7); }
+#cases .cs-quote { display: grid; align-content: space-between; gap: 40px; padding: 20px 24px 24px; background: var(--case-color, var(--color-5)); }
+#cases .cs-text { max-width: 17em; font-size: clamp(26px, 3.1vw, 44px); line-height: 1.06; letter-spacing: -0.045em; }
+#cases .cs-fact { display: grid; gap: 6px; max-width: 28em; }
+#cases .cs-fact .m-rule { margin-bottom: 8px; }
+@media (max-width: 899px) {
+  #cases { padding-top: 96px; }
+  #cases .cs-case, #cases .cs-case:nth-child(even) { grid-template-columns: 1fr; min-height: 0; }
+  #cases .cs-case:nth-child(even) .cs-portrait { order: 0; }
+  #cases .cs-portrait { min-height: 300px; }
+  #cases .cs-glyph { font-size: 72px; }
+  #cases .cs-photo { width: 150px; }
+  #cases .cs-quote { padding: 18px 16px 22px; }
+}
+}
+</style>
+<style data-8b-part="section:people">
+@layer sections {
+#people { padding: 128px 0 120px; overflow: clip; }
+#people .pp-head { row-gap: 22px; padding-bottom: 56px; }
+#people .pp-head .m-rule { grid-column: 1 / -1; }
+#people .pp-head h2 { grid-column: 1 / span 7; }
+#people .pp-head p { grid-column: 9 / span 4; align-self: end; }
+#people .pp-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 40px 16px; }
+#people .pp-person { display: grid; gap: 8px; align-content: start; background: var(--color-1); }
+#people .pp-photo { aspect-ratio: 4 / 5; margin-bottom: 6px; }
+#people .pp-person:nth-child(4n + 1) .pp-photo { --photo-tint: var(--color-3); }
+#people .pp-person:nth-child(4n + 2) .pp-photo { --photo-tint: var(--color-5); }
+#people .pp-person:nth-child(4n + 3) .pp-photo { --photo-tint: var(--color-4); }
+#people .pp-person:nth-child(4n + 4) .pp-photo { --photo-tint: var(--color-3); }
+#people .pp-role { color: var(--color-6); max-width: 22em; }
+@media (max-width: 899px) {
+  #people { padding: 96px 0; }
+  #people .pp-head h2, #people .pp-head p { grid-column: 1 / -1; }
+  #people .pp-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 32px 12px; }
+}
+}
+</style>
+<style data-8b-part="section:faq">
+@layer sections {
+#faq { padding: 120px 0; background: var(--color-5); }
+#faq .fq { row-gap: 40px; align-items: start; }
+#faq .fq-head { grid-column: 1 / span 5; display: grid; gap: 22px; }
+#faq .fq-head p { max-width: 26em; color: var(--color-6); }
+#faq .fq-list { grid-column: 7 / span 6; border-top: 1px solid var(--color-2); }
+#faq .fq-item { border-bottom: 1px solid var(--color-2); }
+#faq .fq-item summary { display: flex; align-items: center; justify-content: space-between; gap: 24px; padding: 16px 0; cursor: pointer; list-style: none; }
+#faq .fq-item summary::-webkit-details-marker { display: none; }
+#faq .fq-item summary:focus-visible { outline-offset: 4px; }
+#faq .fq-icon { flex: none; min-width: 44px; min-height: 44px; padding: 0; font-size: 24px; font-weight: 400; }
+#faq .fq-icon span { display: block; transition: transform .35s cubic-bezier(.7, 0, .2, 1); }
+#faq .fq-item[open] .fq-icon span { transform: rotate(45deg); }
+@media (hover: hover) {
+  #faq .fq-item summary:hover .fq-icon { color: var(--color-2); }
+  #faq .fq-item summary:hover .fq-icon::before { clip-path: inset(0 0 0 0); }
+}
+#faq .fq-a { max-width: 34em; padding: 0 64px 24px 0; }
+@media (max-width: 899px) {
+  #faq { padding: 96px 0; }
+  #faq .fq-head, #faq .fq-list { grid-column: 1 / -1; }
+  #faq .fq-a { padding-right: 0; }
+}
+}
+</style>
+<style data-8b-part="section:fees">
+@layer sections {
+#fees { padding: 128px 0 120px; }
+#fees .fe-head { row-gap: 22px; padding-bottom: 48px; }
+#fees .fe-head .m-rule { grid-column: 1 / -1; }
+#fees .fe-head h2 { grid-column: 1 / span 7; }
+#fees .fe-head p { grid-column: 9 / span 4; align-self: end; }
+#fees .fe-plans { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+#fees .fe-plan { display: grid; grid-template-rows: auto 1fr auto; }
+#fees .fe-stage { --room: 86px; position: relative; height: min(52svh, 420px); border-bottom: 2px solid var(--color-2); }
+#fees .fe-fill { position: absolute; left: 0; right: 0; bottom: 0; height: calc(var(--h, .6) * (100% - var(--room))); background: var(--plan-color, var(--color-5)); }
+#fees .fe-top { position: absolute; left: 0; right: 0; bottom: calc(var(--h, .6) * (100% - var(--room))); display: flex; align-items: end; justify-content: space-between; gap: 12px; padding-bottom: 12px; }
+#fees .fe-price { font-size: clamp(44px, 4.6vw, 66px); font-weight: 500; line-height: .85; letter-spacing: -0.055em; white-space: nowrap; }
+#fees .fe-price small { margin-left: 4px; font-size: 15px; letter-spacing: -0.01em; }
+#fees .fe-list { padding: 18px 0 24px; }
+#fees .fe-list li { padding: 9px 0; border-bottom: 1px solid color-mix(in srgb, var(--color-2) 30%, transparent); }
+@media (max-width: 899px) {
+  #fees { padding: 96px 0; }
+  #fees .fe-head h2, #fees .fe-head p { grid-column: 1 / -1; }
+  #fees .fe-plans { grid-template-columns: 1fr; row-gap: 48px; }
+  #fees .fe-stage { height: 220px; }
+}
+}
+</style>
+<style data-8b-part="section:contact">
+@layer sections {
+#contact { padding: 128px 0; }
+#contact .ct { row-gap: 48px; align-items: start; }
+#contact .ct-copy { grid-column: 1 / span 5; display: grid; gap: 26px; }
+#contact .ct-title { font-size: clamp(46px, 5.8vw, 86px); }
+#contact .ct-details { display: grid; border-top: 1px solid var(--color-2); }
+#contact .ct-details div { display: grid; grid-template-columns: 7em 1fr; gap: 16px; padding: 12px 0; border-bottom: 1px solid var(--color-2); }
+#contact .ct-details dt { padding-top: 3px; }
+#contact .ct-form { grid-column: 7 / span 6; display: grid; gap: 18px; padding: 28px; background: var(--color-2); color: var(--color-1); }
+#contact .ct-form :focus-visible { outline-color: var(--color-3); }
+#contact .ct-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+#contact .ct-choices { display: grid; gap: 8px; margin: 0; padding: 0; border: 0; }
+#contact .ct-choices legend { margin-bottom: 8px; padding: 0; }
+#contact .ct-choice { display: flex; align-items: center; gap: 12px; min-height: 52px; padding: 0 16px; background: var(--choice-color, var(--color-5)); color: var(--color-2); cursor: pointer; font-weight: 500; }
+#contact .ct-choice input { width: 20px; height: 20px; margin: 0; accent-color: var(--color-2); }
+#contact .ct-choice input:focus-visible { outline: 2px solid var(--color-2); outline-offset: 2px; }
+#contact textarea.m-field__input { min-height: 120px; resize: vertical; }
+#contact .ct-form .m-btn-2 { min-height: 60px; }
+#contact .ct-note { color: var(--color-7); }
+#contact .ct-status { padding: 14px 16px; background: var(--color-4); color: var(--color-2); font-weight: 500; }
+@media (max-width: 899px) {
+  #contact { padding: 96px 0; }
+  #contact .ct-copy, #contact .ct-form { grid-column: 1 / -1; }
+  #contact .ct-form { padding: 20px 16px; margin-inline: calc(-1 * var(--space-1)); }
+  #contact .ct-pair { grid-template-columns: 1fr; }
+}
+}
+</style>
+<style data-8b-part="section:footer">
+@layer sections {
+#footer { position: relative; overflow: hidden; padding: 56px var(--space-1) 18px; background: var(--color-2); color: var(--color-1); }
+#footer :focus-visible { outline-color: var(--color-3); }
+#footer .ft-cols { row-gap: 32px; align-items: end; }
+#footer .ft-col { grid-column: span 2; display: grid; gap: 12px; align-content: start; align-self: start; }
+#footer .ft-col ul { display: grid; gap: 6px; justify-items: start; }
+#footer .ft-col .m-text-5 { color: var(--color-7); }
+#footer .ft-year { pointer-events: none; grid-column: 9 / span 4; justify-self: end; font-size: clamp(72px, 13vw, 200px); font-weight: 700; line-height: .78; letter-spacing: -0.065em; }
+#footer .ft-mark { pointer-events: none; margin-top: 48px; font-size: calc(min(100vw - 2 * var(--space-1), 1800px) / (var(--len) * 0.445)); font-weight: 700; line-height: .8; letter-spacing: -0.065em; white-space: nowrap; }
+#footer .ft-base { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 24px; margin-top: 24px; padding-top: 14px; border-top: 1px solid var(--color-7); color: var(--color-7); }
+@media (max-width: 899px) {
+  #footer { padding-top: 44px; }
+  #footer .ft-col { grid-column: span 2; }
+  #footer .ft-col:nth-child(2) { grid-column: 1 / -1; order: 1; }
+  #footer .ft-col:nth-child(3) { order: 0; }
+  #footer .ft-year { order: 2; }
+  #footer .ft-year { grid-column: 1 / -1; justify-self: start; font-size: 26vw; }
+  #footer .ft-mark { margin-top: 28px; }
+}
+}
+</style>
+</head>
+<body>
+<!-- navigation: top bar: wordmark with the year, section links, Book a free call button; phone menu overlay -->
+<header id="nav" class="nav" data-8b-section="navigation">
+  <a class="nav__logo" href="#opening">Tallyhouse<small>26/27</small></a>
+  <a class="nav__cta m-btn-2" href="#contact"><span class="m-btn-2__label">Book a free call</span><span class="m-btn-2__icon" aria-hidden="true">+</span></a>
+  <nav class="nav__links" aria-label="Main">
+    <a class="nav__link" href="#services">Services</a>
+    <a class="nav__link" href="#fees">Fees</a>
+    <a class="nav__link" href="#faq">Questions</a>
+    <a class="nav__link" href="#contact">Contact</a>
+  </nav>
+  <button class="nav__menu m-icon" type="button" aria-expanded="false" aria-controls="menu">Menu +</button>
+  <div class="menu" id="menu" data-lenis-prevent hidden>
+    <div class="menu__top">
+      <a class="nav__logo" href="#opening">Tallyhouse<small>26/27</small></a>
+      <button class="menu__close m-icon" type="button">Close ×</button>
+    </div>
+    <nav class="menu__links" aria-label="Menu">
+      <a href="#month">The one page</a>
+      <a href="#services">Services</a>
+      <a href="#year">The tax year</a>
+      <a href="#fees">Fees</a>
+      <a href="#faq">Questions</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="menu__cta m-btn-2" href="#contact"><span class="m-btn-2__label">Book a free call</span><span class="m-btn-2__icon" aria-hidden="true">+</span></a>
+  </div>
+</header>
+<main>
+<!-- opening: first screen: a black cover square with headline and two buttons over a collage of eight tinted photos with captions (demo: the trades of the clients), then a black statement screen (animation: scene:opening-cover) -->
+<section id="opening" class="opening" data-8b-section="opening">
+  <div class="op-stage">
+    <div class="op-tiles">
+      <figure class="op-tile"><div class="op-tile__frame m-photo"><img fetchpriority="high" style="background:#262626" class="m-photo__img" src="https://images.unsplash.com/photo-1635273051937-a0ddef9573b6?ixid=M3w0Mzc5fDB8MXxzZWFyY2h8NHx8YmFyYmVyJTIwYXQlMjB3b3JrfGVufDF8MXx8fDE3OTEzNjU1MDB8MA&amp;ixlib=rb-4.1.0&amp;auto=format&amp;fit=crop&amp;w=320&amp;q=60" alt="A barber in a hat trimming a customer's fade" width="4000" height="6000"></div><figcaption class="m-badge">Barber</figcaption></figure>
+      <figure class="op-tile"><div class="op-tile__frame m-photo"><img style="background:#260c0c" class="m-photo__img" src="https://images.unsplash.com/photo-1782038522371-a9c8455d6c3b?ixid=M3w0Mzc5fDB8MXxzZWFyY2h8MTF8fGZsb3Jpc3QlMjBhcnJhbmdpbmclMjBmbG93ZXJzfGVufDF8MHx8fDE3OTEzNjU1MDF8MA&amp;ixlib=rb-4.1.0&amp;auto=format&amp;fit=crop&amp;w=420&amp;q=60" alt="A florist's hand holding a white peony among pink flowers" width="3639" height="2439"></div><figcaption class="m-badge">Florist</figcaption></figure>
+      <figure class="op-tile"><div class="op-tile__frame m-photo"><img style="background:#404040" class="m-photo__img" src="https://images.unsplash.com/photo-1615774925655-a0e97fc85c14?ixid=M3w0Mzc5fDB8MXxzZWFyY2h8Mnx8ZWxlY3RyaWNpYW4lMjBhdCUyMHdvcmt8ZW58MXwxfHx8MTc5MTM2NTUwMnww&amp;ixlib=rb-4.1.0&amp;auto=format&amp;fit=crop&amp;w=250&amp;q=60" alt="An electrician in a hard hat testing a fuse board" width="3024" height="4032"></div><figcaption class="m-badge">Electrician</figcaption></figure>
+      <figure class="op-tile"><div class="op-tile__frame m-photo"><img srcset="https://images.unsplash.com/photo-1625489409904-324a5e9591e1?ixid=M3w0Mzc5fDB8MXxzZWFyY2h8NXx8YmFrZXIlMjBiYWtlcnklMjBvd25lcnxlbnwxfDF8fHwxNzkxMzY1NTAyfDA&amp;ixlib=rb-4.1.0&amp;auto=format&amp;fit=crop&amp;w=190&amp;q=60 190w, https://images.unsplash.com/photo-1625489409904-324a5e9591e1?ixid=M3w0Mzc5fDB8MXxzZWFyY2h8NXx8YmFrZXIlMjBiYWtlcnklMjBvd25lcnxlbnwxfDF8fHwxNzkxMzY1NTAyfDA&amp;ixlib=rb-4.1.0&amp;auto=format&amp;fit=crop&amp;w=270&amp;q=60 270w" sizes="(max-width: 767px) 63px, 21vw" style="background:#8c8c8c" class="m-photo__img" src="https://images.unsplash.com/photo-1625489409904-324a5e9591e1?ixid=M3w0Mzc5fDB8MXxzZWFyY2h8NXx8YmFrZXIlMjBiYWtlcnklMjBvd25lcnxlbnwxfDF8fHwxNzkxMzY1NTAyfDA&amp;ixlib=rb-4.1.0&amp;auto=format&amp;fit=crop&amp;w=270&amp;q=60" alt="A baker setting fresh rolls on a tray" width="4000" height="5000"></div><figcaption class="m-badge">Baker</figcaption></figure>
+      <figure class="op-tile"><div class="op-tile__frame m-photo"><img style="background:#597373" class="m-photo__img" src="https://images.unsplash.com/photo-1739117441029-9f2a8e59e8b2?ixid=M3w0Mzc5fDB8MXxzZWFyY2h8MTR8fHRhaWxvciUyMHNld2luZyUyMHdvcmtzaG9wfGVufDF8MHx8fDE3OTEzNjU1MDN8MA&amp;ixlib=rb-4.1.0&amp;auto=format&amp;fit=crop&amp;w=340&amp;q=60" alt="A tailor guiding fabric through a sewing machine" width="3532" height="2269"></div><figcaption class="m-badge">Tailor</figcaption></figure>
+      <figure class="op-tile"><div class="op-tile__frame m-photo"><img style="background:#26260c" class="m-photo__img" src="https://images.unsplash.com/photo-1619642737579-a7474bee1044?ixid=M3w0Mzc5fDB8MXxzZWFyY2h8N3x8bWVjaGFuaWMlMjBnYXJhZ2V8ZW58MXwxfHx8MTc5MTM2NTUwNHww&amp;ixlib=rb-4.1.0&amp;auto=format&amp;fit=crop&amp;w=270&amp;q=60" alt="A mechanic leaning into an engine bay" width="8007" height="9240"></div><figcaption class="m-badge">Mechanic</figcaption></figure>
+      <figure class="op-tile"><div class="op-tile__frame m-photo"><img loading="lazy" style="background:#262640" class="m-photo__img" src="https://images.unsplash.com/photo-1753351052617-62818ffc9173?ixid=M3w0Mzc5fDB8MXxzZWFyY2h8MTV8fGNhZmUlMjBvd25lciUyMGNvdW50ZXJ8ZW58MXwwfHx8MTc5MTM2NTUyOHww&amp;ixlib=rb-4.1.0&amp;auto=format&amp;fit=crop&amp;w=590&amp;q=60" alt="Two café owners standing behind their counter" width="3800" height="2138"></div><figcaption class="m-badge">Café owners</figcaption></figure>
+      <figure class="op-tile"><div class="op-tile__frame m-photo"><img loading="lazy" style="background:#d9d9c0" class="m-photo__img" src="https://images.unsplash.com/photo-1675034741473-afed58a142e8?ixid=M3w0Mzc5fDB8MXxzZWFyY2h8NHx8aGFpcmRyZXNzZXIlMjBzYWxvbiUyMG93bmVyfGVufDF8MXx8fDE3OTEzNjU3MTh8MA&amp;ixlib=rb-4.1.0&amp;auto=format&amp;fit=crop&amp;w=200&amp;q=60" alt="A hairdresser cutting a client's hair in her salon" width="4000" height="6000"></div><figcaption class="m-badge">Hairdresser</figcaption></figure>
+    </div>
+    <div class="op-ground" aria-hidden="true"></div>
+    <div class="op-cover">
+      <div class="op-head">
+        <h1 class="m-text-2 op-title">Accounts, kept plainly.</h1>
+        <p class="m-text-4 op-lead">Bookkeeping, tax returns and payroll for Bristol's small businesses. One fixed monthly fee, one accountant who knows your name.</p>
+      </div>
+      <div class="op-actions">
+        <a class="m-btn-2" href="#contact"><span class="m-btn-2__label">Book a free call</span><span class="m-btn-2__icon" aria-hidden="true">+</span></a>
+        <a class="m-link-2" href="#fees">See the fees</a>
+      </div>
+      <p class="op-year"><span class="sr-only">Tax year </span>26/27</p>
+    </div>
+  </div>
+  <div class="op-second">
+    <p class="m-text-2 op-statement">Last year you did the books at midnight. This year you get one page on the 10th of every month, whether you <mark class="m-mark" style="--mark-color: var(--color-3)">cut hair</mark>, <mark class="m-mark" style="--mark-color: var(--color-4)">bake bread</mark> or <mark class="m-mark" style="--mark-color: var(--color-5)">wire houses</mark>.</p>
+    <ul class="op-ledger">
+      <li><span class="m-rule" aria-hidden="true"></span><span class="m-text-5">Fixed fee</span><p class="m-text">Agreed before we start and never billed by the hour, however many questions you ask.</p></li>
+      <li><span class="m-rule" aria-hidden="true"></span><span class="m-text-5">One accountant</span><p class="m-text">The same person answers every call and email, and knows what your business did last spring.</p></li>
+      <li><span class="m-rule" aria-hidden="true"></span><span class="m-text-5">One page</span><p class="m-text">Profit, cash, tax set aside and the next deadline, in plain English, by the 10th.</p></li>
+    </ul>
+    <a class="m-link-2 op-more" href="#month">See how the one page works</a>
+  </div>
+</section>
+<!-- monthly-report: sample one-page report beside four numbered notes (demo: a bakery's September) (animation: scene:month-walk) -->
+<section id="month" class="month" data-8b-section="monthly-report">
+  <div class="mo-grid wrap grid">
+    <div class="mo-intro">
+      <span class="m-rule" aria-hidden="true" data-8b-motion="rule"></span>
+      <h2 class="m-text-3">Your month, on one page.</h2>
+      <p class="m-text mo-lead">On the 10th of every month your accountant sends one page about the month before. No dashboard to learn and no jargon: what came in, what went out, what to put aside and what happens next.</p>
+    </div>
+    <ol class="mo-notes">
+      <li class="mo-note"><span class="mo-key" aria-hidden="true">1</span><h3 class="m-text-4">Profit, not turnover</h3><p class="m-text">What the business actually made after costs, set against the same month last year, with one line on why it moved.</p></li>
+      <li class="mo-note"><span class="mo-key" aria-hidden="true">2</span><h3 class="m-text-4">Cash you can see coming</h3><p class="m-text">Twelve months of bank balance as one row of bars, so a quiet February is a plan, not a surprise.</p></li>
+      <li class="mo-note"><span class="mo-key" aria-hidden="true">3</span><h3 class="m-text-4">Tax already set aside</h3><p class="m-text">The exact amount to move into a separate pot this month. January stops being the frightening one.</p></li>
+      <li class="mo-note"><span class="mo-key" aria-hidden="true">4</span><h3 class="m-text-4">What happens next</h3><p class="m-text">The coming deadlines, who files them and when. The answer is usually: we do, a week early.</p></li>
+    </ol>
+    <article class="mo-sheet" aria-label="Sample monthly report">
+      <header class="mo-sheet__head">
+        <p class="m-text-5">Monthly report · September 2026</p>
+        <p class="mo-client">Ferris &amp; Daughter Bakery Ltd</p>
+        <p class="m-text-6">Prepared by Hana Okafor on 10 October</p>
+      </header>
+      <div class="mo-part" role="group" aria-label="1. Profit">
+        <h3 class="m-text-5">1 · Profit</h3>
+        <dl class="mo-rows">
+          <div><dt>Money in</dt><dd>£38,420</dd></div>
+          <div><dt>Money out</dt><dd>£31,960</dd></div>
+          <div class="is-total"><dt>Profit</dt><dd>£6,460</dd></div>
+        </dl>
+        <p class="m-text-6">Up £1,180 on September 2025. Flour costs fell after the supplier change in June.</p>
+      </div>
+      <div class="mo-part" role="group" aria-label="2. Cash">
+        <h3 class="m-text-5">2 · Cash in the bank</h3>
+        <div class="mo-cash">
+          <p class="mo-big">£14,205</p>
+          <ol class="mo-bars">
+            <li class="mo-bar"><span class="mo-bar__fill" aria-hidden="true"></span><data class="sr-only" value="9840">October £9,840</data><span class="mo-bar__label" aria-hidden="true">O</span></li>
+            <li class="mo-bar"><span class="mo-bar__fill" aria-hidden="true"></span><data class="sr-only" value="11320">November £11,320</data><span class="mo-bar__label" aria-hidden="true">N</span></li>
+            <li class="mo-bar"><span class="mo-bar__fill" aria-hidden="true"></span><data class="sr-only" value="15760">December £15,760</data><span class="mo-bar__label" aria-hidden="true">D</span></li>
+            <li class="mo-bar"><span class="mo-bar__fill" aria-hidden="true"></span><data class="sr-only" value="8210">January £8,210</data><span class="mo-bar__label" aria-hidden="true">J</span></li>
+            <li class="mo-bar"><span class="mo-bar__fill" aria-hidden="true"></span><data class="sr-only" value="7350">February £7,350</data><span class="mo-bar__label" aria-hidden="true">F</span></li>
+            <li class="mo-bar"><span class="mo-bar__fill" aria-hidden="true"></span><data class="sr-only" value="9120">March £9,120</data><span class="mo-bar__label" aria-hidden="true">M</span></li>
+            <li class="mo-bar"><span class="mo-bar__fill" aria-hidden="true"></span><data class="sr-only" value="10480">April £10,480</data><span class="mo-bar__label" aria-hidden="true">A</span></li>
+            <li class="mo-bar"><span class="mo-bar__fill" aria-hidden="true"></span><data class="sr-only" value="11950">May £11,950</data><span class="mo-bar__label" aria-hidden="true">M</span></li>
+            <li class="mo-bar"><span class="mo-bar__fill" aria-hidden="true"></span><data class="sr-only" value="12600">June £12,600</data><span class="mo-bar__label" aria-hidden="true">J</span></li>
+            <li class="mo-bar"><span class="mo-bar__fill" aria-hidden="true"></span><data class="sr-only" value="13870">July £13,870</data><span class="mo-bar__label" aria-hidden="true">J</span></li>
+            <li class="mo-bar"><span class="mo-bar__fill" aria-hidden="true"></span><data class="sr-only" value="12940">August £12,940</data><span class="mo-bar__label" aria-hidden="true">A</span></li>
+            <li class="mo-bar"><span class="mo-bar__fill" aria-hidden="true"></span><data class="sr-only" value="14205">September £14,205</data><span class="mo-bar__label" aria-hidden="true">S</span></li>
+          </ol>
+        </div>
+      </div>
+      <div class="mo-part" role="group" aria-label="3. Tax set aside">
+        <h3 class="m-text-5">3 · Tax set aside</h3>
+        <dl class="mo-rows">
+          <div><dt>Corporation Tax for September</dt><dd>£1,230</dd></div>
+          <div><dt>VAT collected</dt><dd>£2,940</dd></div>
+        </dl>
+        <p class="mo-pot">Move £4,170 to the tax pot by the 15th.</p>
+      </div>
+      <div class="mo-part" role="group" aria-label="4. Next">
+        <h3 class="m-text-5">4 · Next</h3>
+        <dl class="mo-rows">
+          <div><dt>VAT return, July to September</dt><dd>we file 31 Oct</dd></div>
+          <div><dt>Payroll for 6</dt><dd>runs 25 Oct</dd></div>
+          <div><dt>Quarterly chat with Hana</dt><dd>14 Nov, 9:30</dd></div>
+        </dl>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- services: three full-width colour slabs, one per service, each with a big name, included list, button and a tinted photo (animation: scene:services-clarity) -->
+<section id="services" class="services" data-8b-section="services">
+  <div class="sv-head wrap grid">
+    <span class="m-rule" aria-hidden="true" data-8b-motion="rule"></span>
+    <h2 class="m-text-3">Three jobs, done every month whether you remember or not.</h2>
+    <p class="m-text">Take one, two or all three. They share the same books, so nothing is typed in twice.</p>
+  </div>
+  <div class="sv-slabs">
+    <article class="sv-slab" style="--slab-color: var(--color-3); --photo-tint: var(--color-4)">
+      <div class="sv-slab__in wrap grid">
+        <span class="m-rule" aria-hidden="true"></span>
+        <h3 class="m-text-2 sv-name">Bookkeeping</h3>
+        <div class="sv-copy">
+          <p class="m-text-4">Every receipt, every month.</p>
+          <p class="m-text">Connect your bank and photograph receipts with your phone. We reconcile everything by the 8th, chase what is missing and keep the VAT right, so your one page is ready on the 10th.</p>
+        </div>
+        <div class="sv-photo m-photo"><img style="background:#c0c0c0" class="m-photo__img" src="https://images.unsplash.com/photo-1763958470434-bf7f5065cc3b?ixid=M3w0Mzc5fDB8MXxzZWFyY2h8NXx8cmVjZWlwdHMlMjBwYXBlciUyMHBpbGV8ZW58MXwwfHx8MTc5MTM2NTUyNnww&amp;ixlib=rb-4.1.0&amp;auto=format&amp;fit=crop&amp;w=640&amp;q=60" alt="A loose pile of shop receipts" width="6016" height="4016" loading="lazy"><span class="sv-dots" aria-hidden="true"></span></div>
+        <div class="sv-list">
+          <p class="m-text-5">Included</p>
+          <ul class="m-text">
+            <li>Bank feeds and receipt capture</li>
+            <li>Reconciliation by the 8th of each month</li>
+            <li>VAT and Making Tax Digital records</li>
+            <li>Chasing unpaid invoices, politely</li>
+            <li>The one-page report on the 10th</li>
+          </ul>
+          <a class="m-btn" href="#fees"><span class="m-btn__label">See bookkeeping fees</span><span class="m-btn__arrow" aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </article>
+    <article class="sv-slab" style="--slab-color: var(--color-5); --photo-tint: var(--color-3)">
+      <div class="sv-slab__in wrap grid">
+        <span class="m-rule" aria-hidden="true"></span>
+        <h3 class="m-text-2 sv-name">Tax returns</h3>
+        <div class="sv-copy">
+          <p class="m-text-4">Filed weeks early, never in the last one.</p>
+          <p class="m-text">Self Assessment, Corporation Tax, VAT and the new quarterly updates for sole traders. We prepare them from the books we already keep, you approve them on your phone and we file them.</p>
+        </div>
+        <div class="sv-photo m-photo"><img style="background:#262626" class="m-photo__img" src="https://images.unsplash.com/photo-1711344397160-b23d5deaa012?ixid=M3w0Mzc5fDB8MXxzZWFyY2h8NHx8Y2FsY3VsYXRvciUyMGRvY3VtZW50cyUyMGRlc2t8ZW58MXwwfHx8MTc5MTM2NTUyN3ww&amp;ixlib=rb-4.1.0&amp;auto=format&amp;fit=crop&amp;w=570&amp;q=60" alt="A desk calculator on a dark table" width="4016" height="3012" loading="lazy"><span class="sv-dots" aria-hidden="true"></span></div>
+        <div class="sv-list">
+          <p class="m-text-5">Included</p>
+          <ul class="m-text">
+            <li>Self Assessment for you and your partner</li>
+            <li>Year-end accounts and Corporation Tax</li>
+            <li>VAT returns every quarter</li>
+            <li>Making Tax Digital quarterly updates</li>
+            <li>Letters from HMRC answered for you</li>
+          </ul>
+          <a class="m-btn" href="#fees"><span class="m-btn__label">See tax return fees</span><span class="m-btn__arrow" aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </article>
+    <article class="sv-slab" style="--slab-color: var(--color-4); --photo-tint: var(--color-5)">
+      <div class="sv-slab__in wrap grid">
+        <span class="m-rule" aria-hidden="true"></span>
+        <h3 class="m-text-2 sv-name">Payroll</h3>
+        <div class="sv-copy">
+          <p class="m-text-4">Everyone paid, nobody chased.</p>
+          <p class="m-text">Payslips, pensions and HMRC submissions for teams of one to forty. You approve the run on the 23rd, your staff are paid on the 25th and the filings go the same afternoon.</p>
+        </div>
+        <div class="sv-photo m-photo"><img style="background:#400c0c" class="m-photo__img" src="https://images.unsplash.com/photo-1776142519748-2b897acaecd7?ixid=M3w0Mzc5fDB8MXxzZWFyY2h8M3x8c21hbGwlMjB0ZWFtJTIwa2l0Y2hlbiUyMHN0YWZmfGVufDF8MHx8fDE3OTEzNjU1Mjh8MA&amp;ixlib=rb-4.1.0&amp;auto=format&amp;fit=crop&amp;w=640&amp;q=60" alt="Restaurant staff in aprons working together in a kitchen" width="5927" height="3951" loading="lazy"><span class="sv-dots" aria-hidden="true"></span></div>
+        <div class="sv-list">
+          <p class="m-text-5">Included</p>
+          <ul class="m-text">
+            <li>Weekly or monthly pay runs</li>
+            <li>Payslips sent to every phone</li>
+            <li>Workplace pension enrolment</li>
+            <li>Starters, leavers and P60s</li>
+            <li>Real Time Information filings to HMRC</li>
+          </ul>
+          <a class="m-btn" href="#fees"><span class="m-btn__label">See payroll fees</span><span class="m-btn__arrow" aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- switching: how to switch: a large photo, a heading with a highlight and three numbered steps -->
+<section id="switch" class="switch" data-8b-section="switching">
+  <div class="sw wrap grid">
+    <figure class="sw-photo m-photo" data-8b-motion="tint"><img style="background:#a6a6a6" class="m-photo__img" src="https://images.unsplash.com/photo-1670261197418-40e922b570d2?ixid=M3w0Mzc5fDB8MXxzZWFyY2h8MXx8cmVjZWlwdHMlMjBwYXBlciUyMHBpbGV8ZW58MXwwfHx8MTc5MTM2NTUyNnww&amp;ixlib=rb-4.1.0&amp;auto=format&amp;fit=crop&amp;w=1130&amp;q=60" alt="A heap of loose papers and receipts" width="6062" height="3399" loading="lazy"></figure>
+    <div class="sw-copy">
+      <span class="m-rule" aria-hidden="true" data-8b-motion="rule"></span>
+      <h2 class="m-text-3">Switching takes <mark class="m-mark" style="--mark-color: var(--color-3)" data-8b-motion="mark">one phone call.</mark></h2>
+      <p class="m-text">Most of our clients came from another accountant, or from a shoebox. Either is fine. This is the whole process.</p>
+      <ol class="sw-steps">
+        <li><span class="m-rule" aria-hidden="true" data-8b-motion="rule"></span><span class="sw-num">1</span><div><h3 class="m-text-4">Send us what you have</h3><p class="m-text">A software login, a folder of statements or a photo of the shoebox. We sort it.</p></div></li>
+        <li><span class="m-rule" aria-hidden="true" data-8b-motion="rule"></span><span class="sw-num">2</span><div><h3 class="m-text-4">We call your old accountant</h3><p class="m-text">Professional clearance, last year's figures and the HMRC authorisations are our job, not yours.</p></div></li>
+        <li><span class="m-rule" aria-hidden="true" data-8b-motion="rule"></span><span class="sw-num">3</span><div><h3 class="m-text-4">Your first page arrives</h3><p class="m-text">Usually within two weeks, with anything that was missed before you came to us.</p></div></li>
+      </ol>
+      <a class="m-link" href="#contact">Start the switch</a>
+    </div>
+  </div>
+</section>
+
+<!-- tax-year: pinned horizontal track of twelve months with colour-coded deadline chips (demo: UK tax year April to March) (animation: scene:year-filed) -->
+<section id="year" class="year" data-8b-section="tax-year">
+  <div class="yr-pin">
+    <div class="yr-head wrap grid">
+      <span class="m-rule" aria-hidden="true"></span>
+      <h2 class="m-text-3">The tax year, handled before it's due.</h2>
+      <p class="m-text yr-intro">April to March, every date a small business has to meet. They live in our diary, not yours: we file a week early and tell you on the one page.</p>
+      <ul class="yr-key" aria-label="Kinds of deadline">
+        <li><span class="yr-swatch" style="--chip: var(--color-3)" aria-hidden="true"></span>Returns and accounts</li>
+        <li><span class="yr-swatch" style="--chip: var(--color-4)" aria-hidden="true"></span>VAT and quarterly updates</li>
+        <li><span class="yr-swatch" style="--chip: var(--color-5)" aria-hidden="true"></span>Payroll and pensions</li>
+      </ul>
+    </div>
+    <div class="yr-view">
+      <ol class="yr-track">
+        <li class="yr-month"><h3 class="yr-name">April<span>2026</span></h3><ul class="yr-chips">
+          <li class="yr-chip" style="--chip: var(--color-5)"><span class="yr-chip__fill" aria-hidden="true"></span><span class="yr-date">6 April</span><span class="yr-what">New tax year: payroll codes and tax pots reset</span></li>
+          <li class="yr-chip" style="--chip: var(--color-5)"><span class="yr-chip__fill" aria-hidden="true"></span><span class="yr-date">22 April</span><span class="yr-what">PAYE for March paid to HMRC</span></li>
+        </ul></li>
+        <li class="yr-month"><h3 class="yr-name">May<span>2026</span></h3><ul class="yr-chips">
+          <li class="yr-chip" style="--chip: var(--color-4)"><span class="yr-chip__fill" aria-hidden="true"></span><span class="yr-date">7 May</span><span class="yr-what">VAT return, January to March</span></li>
+          <li class="yr-chip" style="--chip: var(--color-5)"><span class="yr-chip__fill" aria-hidden="true"></span><span class="yr-date">31 May</span><span class="yr-what">P60s to every employee</span></li>
+        </ul></li>
+        <li class="yr-month"><h3 class="yr-name">June<span>2026</span></h3><ul class="yr-chips">
+          <li class="yr-chip" style="--chip: var(--color-5)"><span class="yr-chip__fill" aria-hidden="true"></span><span class="yr-date">22 June</span><span class="yr-what">PAYE for May paid to HMRC</span></li>
+          <li class="yr-chip" style="--chip: var(--color-3)"><span class="yr-chip__fill" aria-hidden="true"></span><span class="yr-date">30 June</span><span class="yr-what">Accounts at Companies House for September year ends</span></li>
+        </ul></li>
+        <li class="yr-month"><h3 class="yr-name">July<span>2026</span></h3><ul class="yr-chips">
+          <li class="yr-chip" style="--chip: var(--color-5)"><span class="yr-chip__fill" aria-hidden="true"></span><span class="yr-date">6 July</span><span class="yr-what">P11D forms for staff benefits</span></li>
+          <li class="yr-chip" style="--chip: var(--color-3)"><span class="yr-chip__fill" aria-hidden="true"></span><span class="yr-date">31 July</span><span class="yr-what">Second payment on account</span></li>
+        </ul></li>
+        <li class="yr-month"><h3 class="yr-name">August<span>2026</span></h3><ul class="yr-chips">
+          <li class="yr-chip" style="--chip: var(--color-4)"><span class="yr-chip__fill" aria-hidden="true"></span><span class="yr-date">7 August</span><span class="yr-what">VAT return and the first quarterly update</span></li>
+          <li class="yr-chip" style="--chip: var(--color-5)"><span class="yr-chip__fill" aria-hidden="true"></span><span class="yr-date">22 August</span><span class="yr-what">PAYE for July paid to HMRC</span></li>
+        </ul></li>
+        <li class="yr-month"><h3 class="yr-name">September<span>2026</span></h3><ul class="yr-chips">
+          <li class="yr-chip" style="--chip: var(--color-5)"><span class="yr-chip__fill" aria-hidden="true"></span><span class="yr-date">22 September</span><span class="yr-what">PAYE for August paid to HMRC</span></li>
+          <li class="yr-chip" style="--chip: var(--color-3)"><span class="yr-chip__fill" aria-hidden="true"></span><span class="yr-date">30 September</span><span class="yr-what">Accounts at Companies House for December year ends</span></li>
+        </ul></li>
+        <li class="yr-month"><h3 class="yr-name">October<span>2026</span></h3><ul class="yr-chips">
+          <li class="yr-chip" style="--chip: var(--color-3)"><span class="yr-chip__fill" aria-hidden="true"></span><span class="yr-date">5 October</span><span class="yr-what">New sole traders registered for Self Assessment</span></li>
+          <li class="yr-chip" style="--chip: var(--color-3)"><span class="yr-chip__fill" aria-hidden="true"></span><span class="yr-date">31 October</span><span class="yr-what">Paper tax returns, for the few who still post them</span></li>
+        </ul></li>
+        <li class="yr-month"><h3 class="yr-name">November<span>2026</span></h3><ul class="yr-chips">
+          <li class="yr-chip" style="--chip: var(--color-4)"><span class="yr-chip__fill" aria-hidden="true"></span><span class="yr-date">7 November</span><span class="yr-what">VAT return and the second quarterly update</span></li>
+          <li class="yr-chip" style="--chip: var(--color-5)"><span class="yr-chip__fill" aria-hidden="true"></span><span class="yr-date">22 November</span><span class="yr-what">PAYE for October paid to HMRC</span></li>
+        </ul></li>
+        <li class="yr-month"><h3 class="yr-name">December<span>2026</span></h3><ul class="yr-chips">
+          <li class="yr-chip" style="--chip: var(--color-5)"><span class="yr-chip__fill" aria-hidden="true"></span><span class="yr-date">22 December</span><span class="yr-what">PAYE paid early, before the break</span></li>
+          <li class="yr-chip" style="--chip: var(--color-3)"><span class="yr-chip__fill" aria-hidden="true"></span><span class="yr-date">30 December</span><span class="yr-what">Returns that collect small debts through your tax code</span></li>
+        </ul></li>
+        <li class="yr-month"><h3 class="yr-name">January<span>2027</span></h3><ul class="yr-chips">
+          <li class="yr-chip" style="--chip: var(--color-3)"><span class="yr-chip__fill" aria-hidden="true"></span><span class="yr-date">31 January</span><span class="yr-what">Self Assessment return and the tax it shows</span></li>
+          <li class="yr-chip" style="--chip: var(--color-3)"><span class="yr-chip__fill" aria-hidden="true"></span><span class="yr-date">31 January</span><span class="yr-what">First payment on account for next year</span></li>
+        </ul></li>
+        <li class="yr-month"><h3 class="yr-name">February<span>2027</span></h3><ul class="yr-chips">
+          <li class="yr-chip" style="--chip: var(--color-4)"><span class="yr-chip__fill" aria-hidden="true"></span><span class="yr-date">7 February</span><span class="yr-what">VAT return and the third quarterly update</span></li>
+          <li class="yr-chip" style="--chip: var(--color-5)"><span class="yr-chip__fill" aria-hidden="true"></span><span class="yr-date">22 February</span><span class="yr-what">PAYE for January paid to HMRC</span></li>
+        </ul></li>
+        <li class="yr-month"><h3 class="yr-name">March<span>2027</span></h3><ul class="yr-chips">
+          <li class="yr-chip" style="--chip: var(--color-5)"><span class="yr-chip__fill" aria-hidden="true"></span><span class="yr-date">22 March</span><span class="yr-what">PAYE for February paid to HMRC</span></li>
+          <li class="yr-chip" style="--chip: var(--color-3)"><span class="yr-chip__fill" aria-hidden="true"></span><span class="yr-date">31 March</span><span class="yr-what">Last call for pension top-ups and allowances</span></li>
+        </ul></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- client-stories: three client quotes as split blocks: dark panel with portrait and name, colour panel with the quote -->
+<section id="cases" class="cases" data-8b-section="client-stories">
+  <div class="cs-head wrap">
+    <span class="m-rule" aria-hidden="true" data-8b-motion="rule"></span>
+    <h2 class="m-text-3">Three kinds of year, kept.</h2>
+  </div>
+  <div class="cs-list">
+    <article class="cs-case" style="--case-color: var(--color-5)">
+      <div class="cs-portrait">
+        <span class="cs-glyph" aria-hidden="true">“</span>
+        <figure class="cs-photo m-photo" style="--photo-tint: var(--color-3)" data-8b-motion="tint"><img style="background:#262626" class="m-photo__img" src="https://images.unsplash.com/photo-1771594836586-837aa05be563?ixid=M3w0Mzc5fDB8MXxzZWFyY2h8MTB8fGhhaXJkcmVzc2VyJTIwc2Fsb24lMjBvd25lcnxlbnwxfDF8fHwxNzkxMzY1NzE4fDA&amp;ixlib=rb-4.1.0&amp;auto=format&amp;fit=crop&amp;w=250&amp;q=60" alt="Mo Adeyemi in a plaid shirt in his barbershop" width="2048" height="3072" loading="lazy"></figure>
+        <p class="cs-who"><strong>Mo Adeyemi</strong><span class="m-text-6">The Cutting Room, Easton. Barbershop, four chairs.</span></p>
+      </div>
+      <div class="cs-quote">
+        <blockquote class="cs-text m-text-4"><p>I used to find out what I owed in January. Now I know on the 10th of every month, and January is <mark class="m-mark" style="--mark-color: var(--color-1)" data-8b-motion="mark">boring</mark>.</p></blockquote>
+        <p class="cs-fact m-text-6"><span class="m-rule" aria-hidden="true" data-8b-motion="rule"></span>Client since 2021. Self Assessment, VAT and payroll for three.</p>
+      </div>
+    </article>
+    <article class="cs-case" style="--case-color: var(--color-3)">
+      <div class="cs-portrait">
+        <span class="cs-glyph" aria-hidden="true">“</span>
+        <figure class="cs-photo m-photo" style="--photo-tint: var(--color-4)" data-8b-motion="tint"><img style="background:#d9d9d9" class="m-photo__img" src="https://images.unsplash.com/photo-1707814370421-bdfa00dcf791?ixid=M3w0Mzc5fDB8MXxzZWFyY2h8MTB8fGJha2VyJTIwYmFrZXJ5JTIwb3duZXJ8ZW58MXwxfHx8MTc5MTM2NTUwMnww&amp;ixlib=rb-4.1.0&amp;auto=format&amp;fit=crop&amp;w=250&amp;q=60" alt="Tom Ferris smiling behind the counter of his bakery" width="2848" height="4288" loading="lazy"></figure>
+        <p class="cs-who"><strong>Tom Ferris</strong><span class="m-text-6">Ferris &amp; Daughter, Bedminster. Bakery and two market stalls.</span></p>
+      </div>
+      <div class="cs-quote">
+        <blockquote class="cs-text m-text-4"><p>They found <mark class="m-mark" style="--mark-color: var(--color-1)" data-8b-motion="mark">£4,200 of expenses</mark> my last accountant never claimed. The new oven has more or less paid for itself.</p></blockquote>
+        <p class="cs-fact m-text-6"><span class="m-rule" aria-hidden="true" data-8b-motion="rule"></span>Client since 2023. Bookkeeping, Corporation Tax and payroll for six.</p>
+      </div>
+    </article>
+    <article class="cs-case" style="--case-color: var(--color-4)">
+      <div class="cs-portrait">
+        <span class="cs-glyph" aria-hidden="true">“</span>
+        <figure class="cs-photo m-photo" style="--photo-tint: var(--color-5)" data-8b-motion="tint"><img style="background:#262640" class="m-photo__img" src="https://images.unsplash.com/photo-1753351052363-53ce102830eb?ixid=M3w0Mzc5fDB8MXxzZWFyY2h8MjB8fGNhZmUlMjBvd25lciUyMGNvdW50ZXJ8ZW58MXwwfHx8MTc5MTM2NTUyOHww&amp;ixlib=rb-4.1.0&amp;auto=format&amp;fit=crop&amp;w=550&amp;q=60" alt="Priya Nair smiling in her coffee shop" width="3800" height="2138" loading="lazy"></figure>
+        <p class="cs-who"><strong>Priya Nair</strong><span class="m-text-6">Sol Coffee, Stokes Croft. Café with nine staff.</span></p>
+      </div>
+      <div class="cs-quote">
+        <blockquote class="cs-text m-text-4"><p>Payroll for nine people used to eat my Sunday. Now I approve it <mark class="m-mark" style="--mark-color: var(--color-1)" data-8b-motion="mark">on my phone</mark> on the 23rd and get on with the week.</p></blockquote>
+        <p class="cs-fact m-text-6"><span class="m-rule" aria-hidden="true" data-8b-motion="rule"></span>Client since 2024. Payroll, pensions and VAT.</p>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- accountants: team of four: portraits, names and what each looks after (animation: scene:people-settle) -->
+<section id="people" class="people" data-8b-section="accountants">
+  <div class="wrap">
+    <div class="pp-head grid">
+      <span class="m-rule" aria-hidden="true" data-8b-motion="rule"></span>
+      <h2 class="m-text-3">Four accountants. You will know one of them well.</h2>
+      <p class="m-text">Every client has one named accountant and a second who knows the file when the first is on holiday. All four are chartered, and all four answer the phone.</p>
+    </div>
+    <ul class="pp-grid">
+      <li class="pp-person"><figure class="pp-photo m-photo"><img style="background:#c0c0c0" class="m-photo__img" src="https://images.unsplash.com/photo-1762341104634-998bbee0ccba?ixid=M3w0Mzc5fDB8MXxzZWFyY2h8MTB8fHByb2Zlc3Npb25hbCUyMHdvbWFuJTIwcG9ydHJhaXQlMjBvZmZpY2V8ZW58MXwxfHx8MTc5MTM2NTUyNXww&amp;ixlib=rb-4.1.0&amp;auto=format&amp;fit=crop&amp;w=300&amp;q=60" alt="Hana Okafor at her desk" width="4000" height="6000" loading="lazy"></figure><h3 class="m-text-4">Hana Okafor</h3><p class="m-text-6 pp-role">Founder. Bakeries, cafés and restaurants, and anyone who sells by the plate.</p></li>
+      <li class="pp-person"><figure class="pp-photo m-photo"><img style="background:#d9d9d9" class="m-photo__img" src="https://images.unsplash.com/photo-1676989859871-150f3579862a?ixid=M3w0Mzc5fDB8MXxzZWFyY2h8NXx8bWFuJTIwcG9ydHJhaXQlMjBvZmZpY2UlMjBjYXN1YWx8ZW58MXwxfHx8MTc5MTM2NTUyNXww&amp;ixlib=rb-4.1.0&amp;auto=format&amp;fit=crop&amp;w=300&amp;q=60" alt="Daniel Price with his arms folded" width="1885" height="2827" loading="lazy"></figure><h3 class="m-text-4">Daniel Price</h3><p class="m-text-6 pp-role">Trades: electricians, builders, mechanics and the vans they run.</p></li>
+      <li class="pp-person"><figure class="pp-photo m-photo"><img style="background:#c0c0c0" class="m-photo__img" src="https://images.unsplash.com/photo-1762341124796-530c0085f7d8?ixid=M3w0Mzc5fDB8MXxzZWFyY2h8MTF8fHByb2Zlc3Npb25hbCUyMHdvbWFuJTIwcG9ydHJhaXQlMjBvZmZpY2V8ZW58MXwxfHx8MTc5MTM2NTUyNXww&amp;ixlib=rb-4.1.0&amp;auto=format&amp;fit=crop&amp;w=300&amp;q=60" alt="Sofia Marin seated in an office chair" width="4000" height="6000" loading="lazy"></figure><h3 class="m-text-4">Sofia Marin</h3><p class="m-text-6 pp-role">Payroll and pensions, from the first employee to the fortieth.</p></li>
+      <li class="pp-person"><figure class="pp-photo m-photo"><img style="background:#262626" class="m-photo__img" src="https://images.unsplash.com/photo-1664871475935-39a9b861514f?ixid=M3w0Mzc5fDB8MXxzZWFyY2h8OHx8bWFuJTIwcG9ydHJhaXQlMjBvZmZpY2UlMjBjYXN1YWx8ZW58MXwxfHx8MTc5MTM2NTUyNXww&amp;ixlib=rb-4.1.0&amp;auto=format&amp;fit=crop&amp;w=300&amp;q=60" alt="Karim Haddad looking at the camera" width="3712" height="5568" loading="lazy"></figure><h3 class="m-text-4">Karim Haddad</h3><p class="m-text-6 pp-role">Sole traders and freelancers, Self Assessment and the new quarterly updates.</p></li>
+    </ul>
+  </div>
+</section>
+
+<!-- questions: questions and answers on a sage ground (native <details>) -->
+<section id="faq" class="faq" data-8b-section="questions">
+  <div class="fq wrap grid">
+    <div class="fq-head">
+      <span class="m-rule" aria-hidden="true" data-8b-motion="rule"></span>
+      <h2 class="m-text-3">Questions people ask before they switch.</h2>
+      <p class="m-text">Anything else, ask on the free call. There is no such thing as a silly tax question, only expensive ones left unasked.</p>
+    </div>
+    <div class="fq-list">
+      <details class="fq-item"><summary><span class="m-text-4">Do I need an accountant as a sole trader?</span><span class="fq-icon m-icon" aria-hidden="true"><span>+</span></span></summary><p class="m-text fq-a">Not by law. But from April 2026 sole traders earning over £50,000 send HMRC quarterly updates under Making Tax Digital, and most would rather not. We keep the records and send the updates for you.</p></details>
+      <details class="fq-item"><summary><span class="m-text-4">What does the fixed fee include?</span><span class="fq-icon m-icon" aria-hidden="true"><span>+</span></span></summary><p class="m-text fq-a">Everything on your plan, including calls, emails and letters from HMRC. If you need something outside it, such as a mortgage reference or a company restructure, we quote first and you decide.</p></details>
+      <details class="fq-item"><summary><span class="m-text-4">Which software do you use?</span><span class="fq-icon m-icon" aria-hidden="true"><span>+</span></span></summary><p class="m-text fq-a">Xero for most clients and FreeAgent for some sole traders. If you already use QuickBooks we work in it. You never have to learn any of them.</p></details>
+      <details class="fq-item"><summary><span class="m-text-4">Can you sort out last year's late return?</span><span class="fq-icon m-icon" aria-hidden="true"><span>+</span></span></summary><p class="m-text fq-a">Yes. We file late returns, appeal penalties where there is a reasonable excuse and set up a payment plan with HMRC if you need one.</p></details>
+      <details class="fq-item"><summary><span class="m-text-4">Can we meet in person?</span><span class="fq-icon m-icon" aria-hidden="true"><span>+</span></span></summary><p class="m-text fq-a">Our office is on Tally Wharf by the harbour and the kettle is usually on. Most monthly chats happen by phone or video, whichever you prefer.</p></details>
+      <details class="fq-item"><summary><span class="m-text-4">How easy is it to leave?</span><span class="fq-icon m-icon" aria-hidden="true"><span>+</span></span></summary><p class="m-text fq-a">One month's notice and no exit fee. We hand everything to your next accountant the way we would want it handed to us.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- fees: three fixed monthly plans as colour blocks whose heights follow their prices (animation: scene:fees-rise) -->
+<section id="fees" class="fees" data-8b-section="fees">
+  <div class="wrap">
+    <div class="fe-head grid">
+      <span class="m-rule" aria-hidden="true" data-8b-motion="rule"></span>
+      <h2 class="m-text-3">Fixed monthly fees. The height of each block is its price.</h2>
+      <p class="m-text">No hourly billing and no year-end invoice. Prices exclude VAT; payroll is £6 per employee a month on any plan.</p>
+    </div>
+    <div class="fe-plans">
+      <article class="fe-plan" style="--plan-color: var(--color-5)">
+        <div class="fe-stage"><span class="fe-fill" aria-hidden="true"></span><div class="fe-top"><h3 class="m-text-4">Sole trader</h3><p class="fe-price"><data value="45">£45</data><small>a month</small></p></div></div>
+        <ul class="fe-list m-text">
+          <li>Bookkeeping from your bank feed</li>
+          <li>Your Self Assessment return</li>
+          <li>Making Tax Digital quarterly updates</li>
+          <li>The one page every month</li>
+        </ul>
+        <a class="m-btn" href="#contact"><span class="m-btn__label">Start as a sole trader</span><span class="m-btn__arrow" aria-hidden="true">→</span></a>
+      </article>
+      <article class="fe-plan" style="--plan-color: var(--color-4)">
+        <div class="fe-stage"><span class="fe-fill" aria-hidden="true"></span><div class="fe-top"><h3 class="m-text-4">Limited company</h3><p class="fe-price"><data value="125">£125</data><small>a month</small></p></div></div>
+        <ul class="fe-list m-text">
+          <li>Bookkeeping and VAT returns</li>
+          <li>Year-end accounts and Corporation Tax</li>
+          <li>Director's Self Assessment</li>
+          <li>Confirmation statement at Companies House</li>
+          <li>The one page and a quarterly chat</li>
+        </ul>
+        <a class="m-btn" href="#contact"><span class="m-btn__label">Start as a company</span><span class="m-btn__arrow" aria-hidden="true">→</span></a>
+      </article>
+      <article class="fe-plan" style="--plan-color: var(--color-3)">
+        <div class="fe-stage"><span class="fe-fill" aria-hidden="true"></span><div class="fe-top"><h3 class="m-text-4">Company with staff</h3><p class="fe-price"><data value="210">£210</data><small>a month</small></p></div></div>
+        <ul class="fe-list m-text">
+          <li>Everything in the company plan</li>
+          <li>Payroll for up to ten, pensions included</li>
+          <li>Management accounts each quarter</li>
+          <li>Cash forecasts for the bank or a loan</li>
+          <li>A monthly chat with your accountant</li>
+        </ul>
+        <a class="m-btn" href="#contact"><span class="m-btn__label">Start with your team</span><span class="m-btn__arrow" aria-hidden="true">→</span></a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- contact: office, phone, email and hours, plus a booking form in a black panel (placeholders) -->
+<section id="contact" class="contact" data-8b-section="contact">
+  <div class="ct wrap grid">
+    <div class="ct-copy">
+      <span class="m-rule" aria-hidden="true" data-8b-motion="rule"></span>
+      <h2 class="m-text-2 ct-title">Book a free <mark class="m-mark" style="--mark-color: var(--color-3)" data-8b-motion="mark">twenty minutes</mark>.</h2>
+      <p class="m-text">Tell us what the business does and what is worrying you. Your accountant calls back within one working day with a fixed price.</p>
+      <dl class="ct-details m-text">
+        <div><dt class="m-text-5">Office</dt><dd>3 Tally Wharf, Bristol BS1 0XX</dd></div>
+        <div><dt class="m-text-5">Phone</dt><dd><a data-8b-placeholder="phone" class="m-link" href="tel:+441170000000">0117 000 0000</a></dd></div>
+        <div><dt class="m-text-5">Email</dt><dd><a data-8b-placeholder="email" class="m-link" href="mailto:hello@tallyhouse.example">hello@tallyhouse.example</a></dd></div>
+        <div><dt class="m-text-5">Hours</dt><dd>Monday to Friday, 8:30 to 17:30</dd></div>
+      </dl>
+    </div>
+    <form data-8b-placeholder="form" class="ct-form" action="#" method="post">
+      <div class="ct-pair">
+        <label class="m-field"><span class="m-field__label">Your name</span><input class="m-field__input" name="name" type="text" autocomplete="name" required></label>
+        <label class="m-field"><span class="m-field__label">Email</span><input class="m-field__input" name="email" type="email" autocomplete="email" required></label>
+      </div>
+      <label class="m-field"><span class="m-field__label">Phone, if you prefer a call</span><input class="m-field__input" name="phone" type="tel" autocomplete="tel"></label>
+      <fieldset class="ct-choices">
+        <legend class="m-text-5">What do you need?</legend>
+        <label class="ct-choice" style="--choice-color: var(--color-3)"><input type="checkbox" name="need" value="bookkeeping">Bookkeeping</label>
+        <label class="ct-choice" style="--choice-color: var(--color-5)"><input type="checkbox" name="need" value="tax">Tax returns</label>
+        <label class="ct-choice" style="--choice-color: var(--color-4)"><input type="checkbox" name="need" value="payroll">Payroll</label>
+      </fieldset>
+      <label class="m-field"><span class="m-field__label">What does the business do?</span><textarea class="m-field__input" name="message" rows="4"></textarea></label>
+      <button class="m-btn-2" type="submit"><span class="m-btn-2__label">Book my free call</span><span class="m-btn-2__icon" aria-hidden="true">+</span></button>
+      <p class="ct-note m-text-6">We only use your details to call you back.</p>
+      <p class="ct-status" role="status" hidden>Thank you. Your accountant will call within one working day.</p>
+    </form>
+  </div>
+</section>
+</main>
+<!-- footer: black footer: address and contacts, links, a giant year and a width-filling wordmark, copyright and the Design: 8B credit (animation: scene:footer-close) -->
+<footer id="footer" data-8b-section="footer">
+  <div class="ft-cols grid">
+    <div class="ft-col"><p class="m-text-5">Visit</p><p class="m-text">3 Tally Wharf<br>Bristol BS1 0XX</p></div>
+    <div class="ft-col"><p class="m-text-5">Talk</p><ul class="m-text"><li><a data-8b-placeholder="phone" class="m-link-2" href="tel:+441170000000">0117 000 0000</a></li><li><a data-8b-placeholder="email" class="m-link-2" href="mailto:hello@tallyhouse.example">hello@tallyhouse.example</a></li></ul></div>
+    <nav class="ft-col" aria-label="Footer"><p class="m-text-5">Pages</p><ul class="m-text"><li><a class="m-link-2" href="#month">The one page</a></li><li><a class="m-link-2" href="#services">Services</a></li><li><a class="m-link-2" href="#year">The tax year</a></li><li><a class="m-link-2" href="#fees">Fees</a></li></ul></nav>
+    <p class="ft-year"><span class="sr-only">Tax year </span>26/27</p>
+  </div>
+  <p class="ft-mark" style="--len:10">Tallyhouse</p>
+  <div class="ft-base m-text-6"><p>© 2026 Tallyhouse Accountants Ltd, Bristol · Design: <a href="https://8b.com/" style="color:inherit" data-8b-credit>8B</a>.</p><p>Chartered accountants for small businesses and sole traders.</p></div>
+</footer>
+<script data-8b-part="section-script:nav">
+(() => {
+  const nav = document.getElementById('nav');
+  const toggle = nav.querySelector('.nav__menu');
+  const menu = nav.querySelector('.menu');
+  const close = menu.querySelector('.menu__close');
+  const setOpen = open => {
+    menu.hidden = !open;
+    toggle.setAttribute('aria-expanded', String(open));
+    document.documentElement.style.overflow = open ? 'hidden' : '';
+    if (open) { window.lenis?.stop(); close.focus(); } else { window.lenis?.start(); }
+  };
+  toggle.addEventListener('click', () => setOpen(true));
+  close.addEventListener('click', () => { setOpen(false); toggle.focus(); });
+  menu.addEventListener('click', event => { if (event.target.closest('a')) setOpen(false); });
+  document.addEventListener('keydown', event => { if (event.key === 'Escape' && !menu.hidden) { setOpen(false); toggle.focus(); } });
+  let last = window.scrollY, travel = 0, ticking = false;
+  const update = () => {
+    ticking = false;
+    const y = window.scrollY, delta = y - last;
+    last = y;
+    if (!delta) return;
+    travel = Math.sign(delta) === Math.sign(travel) ? travel + delta : delta;
+    if (y < 80) nav.classList.remove('is-hidden');
+    else if (travel > 24) nav.classList.add('is-hidden');
+    else if (travel < -24) nav.classList.remove('is-hidden');
+  };
+  window.addEventListener('scroll', () => { if (!ticking) { ticking = true; requestAnimationFrame(update); } }, { passive: true });
+  nav.addEventListener('focusin', () => nav.classList.remove('is-hidden'));
+})();
+</script>
+<script data-8b-part="section-script:opening">
+(() => {
+  const stage = document.querySelector('#opening .op-stage');
+  if (!('IntersectionObserver' in window)) return;
+  new IntersectionObserver(([entry]) => stage.classList.toggle('is-idle', !entry.isIntersecting)).observe(stage);
+})();
+</script>
+<script data-8b-part="section-script:month">
+(() => {
+  const bars = [...document.querySelectorAll('#month .mo-bar')];
+  const values = bars.map(bar => Number(bar.querySelector('data')?.value) || 0);
+  const max = Math.max(...values, 1);
+  bars.forEach((bar, index) => bar.style.setProperty('--v', (values[index] / max).toFixed(3)));
+})();
+</script>
+<script data-8b-part="section-script:fees">
+(() => {
+  const plans = [...document.querySelectorAll('#fees .fe-plan')];
+  const values = plans.map(plan => Number(plan.querySelector('.fe-price data')?.value) || 0);
+  const max = Math.max(...values, 1);
+  plans.forEach((plan, index) => plan.style.setProperty('--h', Math.max(values[index] / max, 0.08).toFixed(3)));
+})();
+</script>
+<script data-8b-part="section-script:contact">
+(() => {
+  const form = document.querySelector('#contact .ct-form');
+  const status = form.querySelector('.ct-status');
+  form.addEventListener('submit', event => {
+    event.preventDefault();
+    if (!form.reportValidity()) return;
+    status.hidden = false;
+    form.querySelector('button[type="submit"]').disabled = true;
+  });
+})();
+</script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.3.27/dist/lenis.min.js"></script>
+<script data-8b-part="motion-queue">
+(() => {
+  'use strict';
+  const fonts = document.fonts ? document.fonts.ready : Promise.resolve();
+  const parsed = document.readyState === 'loading' ? new Promise(resolve => document.addEventListener('DOMContentLoaded', resolve, { once: true })) : Promise.resolve();
+  const ready = () => Promise.all([fonts, parsed]).then(() => firsts);
+  const nextTask = () => window.scheduler?.yield?.() ?? new Promise(resolve => setTimeout(resolve));
+  const refresh = () => {
+    if (typeof window.refreshScroll === 'function') return window.refreshScroll();
+    window.ScrollTrigger?.sort(); window.ScrollTrigger?.refresh();
+  };
+  const run = (setup, name) => {
+    for (const trigger of window.ScrollTrigger?.getAll() || []) if (!trigger.end && window.ScrollTrigger.getAll().includes(trigger)) trigger.refresh(0, 1);
+    const context = window.gsap.context(() => {});
+    const log = new MutationObserver(() => {});
+    log.observe(document.documentElement, { attributes: true, attributeOldValue: true, subtree: true });
+    let failure = null, records;
+    try { context.add(() => { try { setup(); } catch (error) { failure = error; } }); }
+    finally { records = log.takeRecords(); log.disconnect(); }
+    if (!failure) return true;
+    try { context.revert(); } catch (error) { console.error(name, 'revert failed', error); }
+    for (const { target, attributeName, oldValue } of records.reverse()) {
+      const now = target.getAttribute(attributeName);
+      if (oldValue == null) { if (now != null) target.removeAttribute(attributeName); }
+      else if (now !== oldValue) target.setAttribute(attributeName, oldValue);
+    }
+    console.error(name, failure);
+    return false;
+  };
+  let firsts = Promise.resolve(), tail = null, pending = 0, lazy = null, building = 0, firstCount = 0;
+  window.motionReady = ready();
+  parsed.then(() => { if (firstCount && !tail) firsts.then(refresh); });
+  window.queueMotion = (setup, { first = false, near, id } = {}) => {
+    if (!window.gsap || typeof setup !== 'function') return;
+    const name = id || document.currentScript?.getAttribute('data-8b-part') || 'motion';
+    if (near instanceof Element && window.IntersectionObserver) {
+      const watch = new IntersectionObserver(entries => {
+        if (!entries.some(entry => entry.isIntersecting)) return;
+        watch.disconnect();
+        building++;
+        lazy = (lazy || ready()).then(nextTask).then(() => run(setup, name)).finally(() => { if (!--building) refresh(); });
+      }, { rootMargin: '100% 0px' });
+      watch.observe(near);
+      return;
+    }
+    if (first) { firstCount++; firsts = firsts.then(() => fonts).then(() => { if (!run(setup, name)) refresh(); }); }
+    else {
+      pending++;
+      tail = (tail || ready()).then(nextTask).then(() => run(setup, name))
+        .finally(() => { if (!--pending) refresh(); });
+    }
+    window.motionReady = Promise.all([firsts, tail]);
+  };
+})();
+</script>
+<script data-8b-part="page-init">
+gsap.registerPlugin(ScrollTrigger);
+const navBar = document.getElementById('nav');
+function refreshScroll() {
+  document.documentElement.style.setProperty('scroll-padding-top', navBar.offsetHeight + 'px');
+  ScrollTrigger.sort();
+  ScrollTrigger.refresh();
+}
+gsap.matchMedia().add('(prefers-reduced-motion: no-preference)', () => {
+  const lenis = window.lenis = new Lenis({ lerp: 0.09, anchors: { offset: -navBar.offsetHeight } });
+  const tick = time => lenis.raf(time * 1000);
+  lenis.on('scroll', ScrollTrigger.update);
+  gsap.ticker.add(tick);
+  gsap.ticker.lagSmoothing(0);
+  return () => { gsap.ticker.remove(tick); gsap.ticker.lagSmoothing(500, 33); lenis.destroy(); window.lenis = null; };
+});
+</script>
+<script data-8b-part="motion">
+const effects = {
+  rule(element, vars = {}) {
+    return gsap.timeline(vars).fromTo(element, { scaleX: 0 }, { scaleX: 1, duration: 1.1, ease: 'power3.inOut' });
+  },
+  tint(element, vars = {}) {
+    const img = element.querySelector('img') || element;
+    return gsap.timeline(vars)
+      .fromTo(img, { clipPath: 'inset(100% 0% 0% 0%)' }, { clipPath: 'inset(0% 0% 0% 0%)', duration: 1.1, ease: 'power3.inOut' })
+      .fromTo(img, { scale: 1.12 }, { scale: 1, duration: 1.4, ease: 'power2.out' }, 0);
+  },
+  mark(element, vars = {}) {
+    const ink = getComputedStyle(element).color, base = getComputedStyle(element.parentElement).color;
+    return gsap.timeline(vars).fromTo(element, { backgroundSize: '0% 100%', color: base }, { backgroundSize: '100% 100%', color: ink, duration: .9, ease: 'power3.inOut' });
+  }
+};
+['rule', 'tint', 'mark'].forEach(name => {
+  document.querySelectorAll('[data-8b-section]').forEach(section => {
+    const elements = [...section.querySelectorAll(`[data-8b-motion~="${name}"]`)];
+    if (!elements.length) return;
+    const id = `effect:${name}:${section.id}`;
+    queueMotion(() => gsap.matchMedia().add('(prefers-reduced-motion: no-preference)', () => {
+      elements.forEach((element, index) => ScrollTrigger.create({
+        id: `${id}:${index}`, trigger: element, start: 'top 88%', once: true,
+        animation: effects[name](element, { delay: (index % 3) * 0.08 })
+      }));
+    }), section.getBoundingClientRect().top < innerHeight ? { first: true, id } : { near: section, id });
+  });
+});
+</script>
+<script data-8b-part="scene:opening-cover">
+queueMotion(() => {
+  gsap.matchMedia().add('(prefers-reduced-motion: no-preference)', () => {
+    const section = document.getElementById('opening');
+    const stage = section.querySelector('.op-stage');
+    const ground = stage.querySelector('.op-ground');
+    const cover = stage.querySelector('.op-cover');
+    const year = cover.querySelector('.op-year');
+    const tiles = [...stage.querySelectorAll('.op-tile')];
+    const marks = [...section.querySelectorAll('.op-statement .m-mark')];
+    const box = () => {
+      const s = stage.getBoundingClientRect(), c = cover.getBoundingClientRect();
+      return { w: s.width, h: s.height, l: c.left - s.left, t: c.top - s.top, r: s.right - c.right, b: s.bottom - c.bottom, cx: c.left - s.left + c.width / 2, cy: c.top - s.top + c.height / 2 };
+    };
+    const tl = gsap.timeline({ defaults: { ease: 'none' }, scrollTrigger: {
+      id: 'opening-cover', trigger: section, start: 'top top', end: () => '+=' + stage.offsetHeight, scrub: 0.6, invalidateOnRefresh: true
+    }});
+    tl.fromTo(ground, { '--spread': 0 }, { '--spread': 1, duration: .46, ease: 'power1.inOut' }, .02);
+    tl.to(year, { x: () => box().r - 22, y: () => box().b - 18, duration: .46, ease: 'power1.inOut' }, .02);
+    tiles.forEach((tile, index) => {
+      const vector = () => {
+        const g = box(), r = tile.getBoundingClientRect(), s = stage.getBoundingClientRect();
+        const dx = r.left - s.left + r.width / 2 - g.cx, dy = r.top - s.top + r.height / 2 - g.cy;
+        const len = Math.hypot(dx, dy) || 1;
+        return { x: dx / len * g.w * .5, y: dy / len * g.h * .5 };
+      };
+      tl.to(tile, { x: () => vector().x, y: () => vector().y, rotation: index % 2 ? 9 : -8, scale: .82, duration: .5, ease: 'power1.in' }, 0)
+        .to(tile, { x: 0, y: 0, rotation: 0, scale: 1, duration: .3, ease: 'none' }, .62);
+    });
+    marks.forEach((mark, index) => tl.add(effects.mark(mark).duration(.18), .48 + index * .05));
+    tl.to({}, { duration: .04 }, .96);
+  });
+}, { first: true, id: 'scene:opening-cover' });
+</script>
+<script data-8b-part="scene:month-walk">
+queueMotion(() => {
+  gsap.matchMedia().add({
+    wide: '(min-width: 900px) and (prefers-reduced-motion: no-preference)',
+    narrow: '(max-width: 899px) and (prefers-reduced-motion: no-preference)'
+  }, context => {
+    const section = document.getElementById('month');
+    const sheet = section.querySelector('.mo-sheet');
+    const parts = [...sheet.querySelectorAll('.mo-part')];
+    const keys = [...section.querySelectorAll('.mo-note .mo-key')];
+    const fills = [...sheet.querySelectorAll('.mo-bar__fill')];
+    const cash = parts.findIndex(part => part.contains(fills[0]));
+    const band = document.createElement('span');
+    band.className = 'mo-band';
+    band.setAttribute('aria-hidden', 'true');
+    sheet.prepend(band);
+    gsap.set(band, { autoAlpha: 0 });
+    gsap.set(fills, { scaleY: 0.06 });
+    let active = -1;
+    const place = index => {
+      if (index === active) return;
+      active = index;
+      keys.forEach((key, i) => key.classList.toggle('is-on', i === index));
+      const part = parts[index];
+      if (part) gsap.to(band, { autoAlpha: 1, y: part.offsetTop - 6, scaleY: (part.offsetHeight + 12) / 100, duration: 0.6, ease: 'power3.inOut', overwrite: true });
+      else gsap.to(band, { autoAlpha: 0, duration: 0.3, overwrite: true });
+      gsap.to(fills, { scaleY: cash >= 0 && index >= cash ? 1 : 0.06, duration: 0.8, stagger: 0.035, ease: 'power3.out', overwrite: true });
+    };
+    const steps = context.conditions.wide ? [...section.querySelectorAll('.mo-note')] : parts;
+    steps.forEach((step, index) => ScrollTrigger.create({
+      id: `month-walk:${index}`, trigger: step, start: 'top 58%', end: 'bottom 58%',
+      onToggle: self => {
+        if (self.isActive) place(index);
+        else if (index === 0 && self.direction < 0) place(-1);
+      }
+    }));
+    return () => { band.remove(); keys.forEach(key => key.classList.remove('is-on')); };
+  });
+}, { near: document.getElementById('month'), id: 'scene:month-walk' });
+</script>
+<script data-8b-part="scene:services-clarity">
+queueMotion(() => {
+  gsap.matchMedia().add({
+    stack: '(min-width: 900px) and (min-height: 680px) and (prefers-reduced-motion: no-preference)',
+    flow: '(max-width: 899px) and (prefers-reduced-motion: no-preference), (max-height: 679px) and (prefers-reduced-motion: no-preference)'
+  }, context => {
+    const section = document.getElementById('services');
+    const list = section.querySelector('.sv-slabs');
+    const slabs = [...list.querySelectorAll('.sv-slab')];
+    const slabTop = index => list.getBoundingClientRect().top + window.scrollY + slabs.slice(0, index).reduce((sum, slab) => sum + slab.offsetHeight, 0);
+    slabs.forEach((slab, index) => {
+      const dots = slab.querySelector('.sv-dots');
+      const img = slab.querySelector('.sv-photo .m-photo__img');
+      const photo = slab.querySelector('.sv-photo');
+      const scrollTrigger = context.conditions.stack
+        ? { id: `services-clarity:${index}`, trigger: list, start: () => slabTop(index) - innerHeight * 0.85, end: () => slabTop(index) + innerHeight * 0.05, scrub: 0.5, invalidateOnRefresh: true }
+        : { id: `services-clarity:${index}`, trigger: photo, start: 'top 95%', end: 'center 55%', scrub: 0.5 };
+      const timeline = gsap.timeline({ defaults: { ease: 'none' }, scrollTrigger });
+      timeline.fromTo(dots, { '--dot-cell': '46px', '--dot-r': '20px' }, { '--dot-cell': '6px', '--dot-r': '1.2px', ease: 'power1.inOut' }, 0)
+        .fromTo(img, { scale: 1.2 }, { scale: 1 }, 0);
+      if (context.conditions.stack && index) timeline.fromTo(slabs[index - 1], { scale: 1 }, { scale: 0.9, transformOrigin: '50% 0%' }, 0);
+    });
+  });
+}, { near: document.getElementById('services'), id: 'scene:services-clarity' });
+</script>
+<script data-8b-part="scene:year-filed">
+queueMotion(() => {
+  gsap.matchMedia().add('(prefers-reduced-motion: no-preference)', () => {
+    const section = document.getElementById('year');
+    const pin = section.querySelector('.yr-pin');
+    const view = section.querySelector('.yr-view');
+    const track = section.querySelector('.yr-track');
+    const chips = [...track.querySelectorAll('.yr-chip')];
+    const fills = chips.map(chip => chip.querySelector('.yr-chip__fill'));
+    const setters = fills.map(fill => gsap.quickSetter(fill, 'scaleX'));
+    const line = document.createElement('span');
+    line.className = 'yr-line';
+    line.setAttribute('aria-hidden', 'true');
+    view.append(line);
+    section.classList.add('is-tracked');
+    view.scrollLeft = 0;
+    let geometry = [];
+    const measure = () => {
+      const box = track.getBoundingClientRect();
+      geometry = chips.map(chip => { const rect = chip.getBoundingClientRect(); return { left: rect.left - box.left, width: rect.width || 1 }; });
+    };
+    const paint = () => {
+      const x = Number(gsap.getProperty(track, 'x')) || 0;
+      const lineX = view.clientWidth / 2;
+      geometry.forEach((chip, index) => setters[index](gsap.utils.clamp(0, 1, (lineX - chip.left - x) / chip.width)));
+    };
+    const distance = () => Math.max(0, track.scrollWidth - view.clientWidth);
+    gsap.to(track, {
+      x: () => -distance(), ease: 'none', onUpdate: paint,
+      scrollTrigger: { id: 'year-filed', trigger: pin, start: 'top top', end: () => '+=' + distance(), pin: true, scrub: 0.5, invalidateOnRefresh: true, onRefresh: () => { measure(); paint(); } }
+    });
+    measure();
+    paint();
+    return () => { line.remove(); section.classList.remove('is-tracked'); gsap.set(fills, { clearProps: 'transform' }); };
+  });
+}, { id: 'scene:year-filed' });
+</script>
+<script data-8b-part="scene:people-settle">
+queueMotion(() => {
+  gsap.matchMedia().add('(prefers-reduced-motion: no-preference)', () => {
+    const section = document.getElementById('people');
+    const grid = section.querySelector('.pp-grid');
+    const people = [...grid.querySelectorAll('.pp-person')];
+    const tilt = [-7, 5, -4, 8, -6, 4];
+    const timeline = gsap.timeline({ defaults: { ease: 'none' }, scrollTrigger: {
+      id: 'people-settle', trigger: grid, start: 'top 95%', end: 'top 32%', scrub: 0.6, invalidateOnRefresh: true
+    }});
+    people.forEach((person, index) => {
+      const offset = () => {
+        const g = grid.getBoundingClientRect(), r = person.getBoundingClientRect();
+        const dx = g.left + g.width / 2 - (r.left + r.width / 2);
+        return { x: dx * 0.62, y: (index % 2 ? -1 : 1) * r.height * 0.12 + 80 };
+      };
+      timeline.from(person, { x: () => offset().x, y: () => offset().y, rotation: tilt[index % tilt.length], ease: 'power2.out' }, index * 0.04);
+    });
+  });
+}, { near: document.getElementById('people'), id: 'scene:people-settle' });
+</script>
+<script data-8b-part="scene:fees-rise">
+queueMotion(() => {
+  gsap.matchMedia().add('(prefers-reduced-motion: no-preference)', () => {
+    const section = document.getElementById('fees');
+    const plans = [...section.querySelectorAll('.fe-plan')];
+    const timeline = gsap.timeline({ defaults: { ease: 'none' }, scrollTrigger: {
+      id: 'fees-rise', trigger: section.querySelector('.fe-plans'), start: 'top 88%', end: 'top 30%', scrub: 0.6, invalidateOnRefresh: true
+    }});
+    plans.forEach((plan, index) => {
+      const fill = plan.querySelector('.fe-fill'), top = plan.querySelector('.fe-top');
+      timeline.fromTo(fill, { clipPath: 'inset(100% 0% 0% 0%)' }, { clipPath: 'inset(0% 0% 0% 0%)', ease: 'power2.out' }, index * 0.15)
+        .fromTo(top, { y: () => fill.offsetHeight }, { y: 0, ease: 'power2.out' }, index * 0.15);
+    });
+  });
+}, { near: document.getElementById('fees'), id: 'scene:fees-rise' });
+</script>
+<script data-8b-part="scene:footer-close">
+queueMotion(() => {
+  gsap.matchMedia().add('(prefers-reduced-motion: no-preference)', () => {
+    const footer = document.getElementById('footer');
+    const mark = footer.querySelector('.ft-mark');
+    const year = footer.querySelector('.ft-year');
+    const timeline = gsap.timeline({ defaults: { ease: 'none' }, scrollTrigger: {
+      id: 'footer-close', trigger: footer, start: 'top bottom', end: 'bottom bottom', scrub: 0.6, invalidateOnRefresh: true
+    }});
+    timeline.fromTo(mark, { yPercent: 35, scale: 1.08, transformOrigin: '0% 100%' }, { yPercent: 0, scale: 1, ease: 'power2.out' }, 0)
+      .fromTo(year, { x: () => -Math.max(0, footer.clientWidth - year.offsetWidth - 40) * 0.6 }, { x: 0, ease: 'power2.out' }, 0);
+  });
+}, { near: document.getElementById('footer'), id: 'scene:footer-close' });
+</script>
+</body>
+</html>
